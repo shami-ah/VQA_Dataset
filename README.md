@@ -1,68 +1,107 @@
 # 🧠 VQA Dataset Project
 
-This project aims to build a multilingual, multi-domain Visual Question Answering (VQA) dataset. It is structured on a rich taxonomy, populated with images from rare and underutilized sources, and annotated with high-quality visual reasoning questions.
+This project aims to build a **multilingual, multimodal Visual Question Answering (VQA) dataset** — enriched with semantic image-text pairs across diverse domains (medicine, education, environment, culture, etc.).
+
+The pipeline integrates smart scraping, OCR-based filtering, and scalable metadata generation. The long-term goal is to serve robust training data for VQA and foundational vision-language models.
 
 ---
 
-## 🔍 Data Sourcing Philosophy
+## 🌍 Vision & Scope
 
-Unlike generic scraping from Google or Bing, we focus on:
-- Academic journals and institutional archives
-- Language-specific content (Arabic, Korean, Japanese, etc.)
-- Open government repositories
-- Niche forums and deep search platforms (Windsurf, Cursor, DeepSearch)
-
-Each image must:
-- Contain text **within the image**
-- Avoid watermarks or copyright issues
-- Be visually and semantically relevant to the assigned domain/subdomain
+- **Multilingual**: Starting with Arabic, expanding to Korean, Chinese, Japanese, Urdu, and others.
+- **Multisource**: Scraping from Google, Bing, Pinterest, DuckDuckGo, academic sites, forums, and government repositories.
+- **Multimodal**: Future integration of video, audio, and text layers.
+- **Human-in-the-loop**: Final manual review and curation phase.
+- **Scalable**: Modular pipeline (CLI-based) deployable via VS Code or Google Colab Pro+.
 
 ---
 
-## 🗂️ Project Structure
+## 🔁 End-to-End Pipeline
+
+1. **Scrape Images**  
+   - Sources: DuckDuckGo, Bing, Google, Pinterest  
+   - Language-aware search with curated keyword lists  
+   - Custom scripts for each source
+
+2. **OCR Filtering (EasyOCR)**  
+   - Arabic-only filter using Unicode ranges  
+   - Quality check (low-res image drop planned)
+
+3. **Metadata Enrichment**  
+   - Each image is annotated with source, dimensions, and extracted text  
+   - Deduplication via hash/SSIM (coming soon)
+
+4. **Packaging & Delivery**  
+   - Zipped outputs with image + `annotations.json`  
+   - Google Drive sync for client access
+
+---
+
+## 🧠 Project Structure
 vqa_dataset_project/
-├── raw_images/                 # Downloaded images by domain/subdomain
-│   └── [domain]/[subdomain]/[theme]/image.jpg
-├── metadata/                  # Taxonomy & image metadata
-│   └── taxonomy_structure.json
-├── qa_data/                   # VQA JSONL outputs
-│   └── [domain]_[subdomain].jsonl
-├── scripts/                   # Scraper & processing tools
-│   ├── image_scraper.py
-│   ├── generate_metadata.py
-├── README.md
+├── data/
+│   ├── raw_[source]               # Raw images from each source (bing, pinterest, etc.)
+│   └── processed_[source]         # OCR-filtered Arabic images
+├── metadata/
+│   └── annotations.json           # OCR-based text + image metadata
+├── scripts/
+│   ├── image_scraper_[source].py  # Individual scrapers for sources
+│   ├── filter_images_easyocr.py   # Arabic image filtering with EasyOCR
+│   ├── pipeline_template.py       # Full pipeline automation
+├── scripts/config/
+│   └── keywords_[lang].txt        # Language-specific keyword lists
+├── qa_data/
+│   └── [domain]_[subdomain].jsonl # Future VQA question generation
+└── README.md
 
 ---
 
-## 📄 JSONL Output Format
+## 📄 JSONL Output Format (Planned)
 
-Each image entry includes 5 diverse reasoning questions:
-- Object recognition
-- Causal/logical inference
-- Intermodal (e.g., MRI, satellite)
-- Color-based reasoning
-- Spatial awareness
+Each image will include metadata + 5 diverse VQA questions:
 
 ```json
 {
-  "image_id": "medical_001",
-  "image_path": "images/medicine/radiology/brain_scan/medical_001.jpg",
-  "domain": "medicine",
-  "subdomain": "radiology",
-  "theme": "brain_scan",
-  "language": "en",
+  "image_id": "edu_005",
+  "image_path": "data/processed_google/edu_005.jpg",
+  "domain": "education",
+  "subdomain": "infographics",
+  "language": "ar",
   "image_metadata": {
-    "width": 1024,
-    "height": 768,
+    "width": 800,
+    "height": 600,
     "format": "JPEG"
   },
+  "ocr_text": "مخطط تعليمي لشرح قواعد اللغة",
   "questions": [
     {
-      "question": "What part of the brain is shown?",
-      "answer": "Frontal lobe",
-      "type": "object_recognition",
-      "difficulty": "medium"
+      "question": "ما نوع القاعدة النحوية الموضحة؟",
+      "answer": "قاعدة الجملة الاسمية",
+      "type": "grammar_explanation"
     }
-    // ...4 more types
+    // ... 4 more diverse question types
   ]
 }
+
+🔮 Future Directions
+	•	⚙️ Full automation: Language-wise pipelines with CLI arguments
+	•	🧹 Image deduplication: Hashing + SSIM + perceptual comparison
+	•	🗂️ Taxonomy-driven storage: Domain/subdomain-based organization
+	•	🔡 Multilingual OCR: Extended support for CJK, Urdu, Hindi
+	•	📦 Data lake architecture: Eventually integrating ETL pipelines and a warehouse
+
+⸻
+
+🚀 Run Locally
+	1.	Install requirements:
+pip install -r requirements.txt
+	2.	Run a test pipeline:
+python3 scripts/pipeline_template.py \
+  --keywords scripts/config/keywords_arabic.txt \
+  --max_images 10 \
+  --images_per_keyword 5 \
+  --save_dir data/raw_google_test \
+  --filtered_dir data/processed_google_test
+🤝 Credits
+
+Maintained by @shami-ah
