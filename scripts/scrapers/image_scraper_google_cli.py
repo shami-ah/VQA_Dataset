@@ -29,8 +29,8 @@ def scrape_images(keywords, save_dir, images_per_keyword):
             results = google_search(keyword, images_per_keyword, API_KEY, CSE_ID)
 
             # 🧪 Debug: See what Google returns
-            print(f"\n🔍 Raw API response for '{keyword}':")
-            print(json.dumps(results, indent=2, ensure_ascii=False))
+            #print(f"\n🔍 Raw API response for '{keyword}':")
+            #print(json.dumps(results, indent=2, ensure_ascii=False))
             for item in results.get("items", []):
                 img_url = item.get("link")
                 if not img_url: continue
