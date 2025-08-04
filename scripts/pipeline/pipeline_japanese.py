@@ -19,7 +19,7 @@ def run_scraper(script, keywords_file, save_dir, images_per_keyword):
 def run_ocr(input_dir, output_dir, annotation_path):
     print("🔍 Running OCR filtering...")
     subprocess.run([
-        "python3", "scripts/ocr/filter_images_easyocr_japanese.py",
+        "python3", "scripts/ocr/filter_images_japanese_ocr.py",
         "--input_dir", input_dir,
         "--output_dir", output_dir,
         "--annotation_path", annotation_path

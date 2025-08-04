@@ -29,7 +29,7 @@ def run_scraper(source, keywords_file, save_dir, images_per_source):
 def run_ocr(input_dir, output_dir):
     print("🔍 Running OCR filtering...")
     subprocess.run([
-        "python3", "scripts/ocr/filter_images_easyocr_hindi.py",
+        "python3", "scripts/ocr/filter_images_hindi_ocr.py",
         "--input_dir", input_dir,
         "--output_dir", output_dir
     ])
