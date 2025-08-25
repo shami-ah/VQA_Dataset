@@ -1,0 +1,301 @@
+{
+  "acronyms": [
+    "2D",
+    "3D",
+    "5S",
+    "8D",
+    "AI",
+    "API",
+    "CAD",
+    "CCTV",
+    "CRM",
+    "CSS",
+    "ERP",
+    "FAQ",
+    "GPS",
+    "HTML",
+    "ISO",
+    "JS",
+    "ML",
+    "PDF",
+    "PPC",
+    "ROI",
+    "SKU",
+    "WiFi"
+  ],
+  "digit_convert": false,
+  "phrase_map": [
+    [
+      "close[- ]?up photography",
+      "特写摄影"
+    ],
+    [
+      "macro shot of",
+      "宏拍"
+    ],
+    [
+      "macro shot",
+      "宏拍"
+    ],
+    [
+      "flat lay",
+      "俯拍"
+    ],
+    [
+      "high[- ]?resolution",
+      "高清"
+    ],
+    [
+      "detailed view of",
+      "细节视图"
+    ],
+    [
+      "view of",
+      "视图"
+    ],
+    [
+      "photo showing",
+      "照片显示"
+    ],
+    [
+      "photo with",
+      "带有的照片"
+    ],
+    [
+      "image with",
+      "带有的图片"
+    ],
+    [
+      "scan showing",
+      "扫描显示"
+    ],
+    [
+      "scan with visible",
+      "可见扫描"
+    ],
+    [
+      "handwritten text",
+      "手写文字"
+    ],
+    [
+      "typed text",
+      "打印文字"
+    ],
+    [
+      "digital text",
+      "数字文字"
+    ],
+    [
+      "formatted text",
+      "排版文字"
+    ],
+    [
+      "technical text",
+      "技术文字"
+    ],
+    [
+      "alphabetical text",
+      "字母文字"
+    ],
+    [
+      "mixed text",
+      "混合文字"
+    ],
+    [
+      "block letters",
+      "大写字母"
+    ],
+    [
+      "numerical data",
+      "数字数据"
+    ],
+    [
+      "cover page",
+      "封面页"
+    ],
+    [
+      "title page",
+      "标题页"
+    ],
+    [
+      "table of contents",
+      "目录"
+    ],
+    [
+      "index page",
+      "索引页"
+    ],
+    [
+      "classroom wall",
+      "教室墙面"
+    ],
+    [
+      "reception desk",
+      "前台"
+    ],
+    [
+      "entrance door",
+      "入口门"
+    ],
+    [
+      "hallway wall",
+      "走廊墙面"
+    ]
+  ],
+  "word_map": {
+    "academic": "学术",
+    "classroom": "教室",
+    "school": "学校",
+    "college": "学院",
+    "university": "大学",
+    "student": "学生",
+    "teacher": "老师",
+    "professor": "教授",
+    "exam": "考试",
+    "quiz": "小测验",
+    "assignment": "作业",
+    "project": "项目",
+    "office": "办公室",
+    "door": "门",
+    "entrance": "入口",
+    "reception": "前台",
+    "window": "窗户",
+    "counter": "柜台",
+    "warehouse": "仓库",
+    "factory": "工厂",
+    "lab": "实验室",
+    "laboratory": "实验室",
+    "clinic": "诊所",
+    "library": "图书馆",
+    "workshop": "车间",
+    "platform": "站台",
+    "train": "火车",
+    "station": "车站",
+    "hallway": "走廊",
+    "wall": "墙面",
+    "room": "房间",
+    "lobby": "大堂",
+    "corridor": "走廊",
+    "storefront": "店面",
+    "cashier": "收银台",
+    "cafeteria": "自助餐厅",
+    "agenda": "议程",
+    "calendar": "日历",
+    "card": "卡片",
+    "certificate": "证书",
+    "checklist": "检查清单",
+    "blueprint": "蓝图",
+    "directory": "目录",
+    "document": "文件",
+    "file": "文件",
+    "folder": "文件夹",
+    "map": "地图",
+    "menu": "菜单",
+    "poster": "海报",
+    "label": "标签",
+    "labels": "标签",
+    "pass": "通行证",
+    "ticket": "票据",
+    "program": "程序",
+    "application": "应用",
+    "service": "服务",
+    "technology": "技术",
+    "workflow": "工作流程",
+    "process": "流程",
+    "procedure": "步骤",
+    "policy": "政策",
+    "statement": "声明",
+    "report": "报告",
+    "review": "评审",
+    "analysis": "分析",
+    "assessment": "评估",
+    "agreement": "协议",
+    "proposal": "提案",
+    "submission": "提交",
+    "summary": "摘要",
+    "specification": "规格",
+    "specifications": "规格",
+    "diagram": "示意图",
+    "chart": "图表",
+    "graph": "图形",
+    "table": "表格",
+    "list": "清单",
+    "archive": "档案",
+    "plan": "计划",
+    "sheet": "表单",
+    "audit": "审计",
+    "invoice": "发票",
+    "receipt": "收据",
+    "license": "许可证",
+    "record": "记录",
+    "notice": "通知",
+    "permit": "许可",
+    "guide": "指南",
+    "handbook": "手册",
+    "instructions": "说明",
+    "instruction": "说明",
+    "form": "表格",
+    "sample": "样本",
+    "specimen": "样本",
+    "manual": "手册",
+    "template": "模板",
+    "schedule": "日程表",
+    "log": "日志",
+    "inventory": "库存",
+    "stock": "库存",
+    "catalog": "目录",
+    "catalogue": "目录",
+    "coupon": "优惠券",
+    "voucher": "代金券",
+    "brochure": "宣传册",
+    "flyer": "传单",
+    "noticeboard": "公告栏",
+    "sign": "标牌",
+    "board": "牌板",
+    "banner": "横幅",
+    "sticker": "贴纸",
+    "badge": "徽章",
+    "tag": "标签",
+    "wood": "木质",
+    "wooden": "木质",
+    "metal": "金属",
+    "metallic": "金属",
+    "glass": "玻璃",
+    "glassy": "玻璃",
+    "plastic": "塑料",
+    "paper": "纸质",
+    "cardboard": "纸板",
+    "visible": "可见",
+    "readable": "清晰",
+    "clear": "清晰",
+    "printed": "印刷",
+    "handwritten": "手写",
+    "formatted": "排版",
+    "technical": "技术",
+    "digital": "数字",
+    "alphabetical": "字母",
+    "mixed": "混合",
+    "bold": "加粗",
+    "letters": "字母",
+    "numerical": "数字",
+    "data": "数据",
+    "macro": "宏拍",
+    "scan": "扫描",
+    "photo": "照片",
+    "image": "图片",
+    "view": "视图",
+    "detailed": "细节",
+    "overview": "概览",
+    "reminder": "提醒",
+    "sharp": "清晰",
+    "focus": "对焦",
+    "screen": "屏幕",
+    "presentation": "演示",
+    "note": "注释",
+    "memo": "备忘录",
+    "letter": "信件",
+    "email": "电子邮件",
+    "announcement": "公告"
+  },
+  "feminine_heads": []
+}
