@@ -19,7 +19,7 @@ def run_scraper(script, keywords_file, save_dir, images_per_keyword):
 def run_ocr(input_dir, output_dir, annotation_path):
     print("🔍 Running OCR filtering...")
     subprocess.run([
-        "python3", "scripts/ocr/filter_images_japanese_ocr.py",
+        "python3", "phase1_foundation/scripts/ocr/filter_images_japanese_ocr.py",
         "--input_dir", input_dir,
         "--output_dir", output_dir,
         "--annotation_path", annotation_path
@@ -28,7 +28,7 @@ def run_ocr(input_dir, output_dir, annotation_path):
 def run_zip(processed_dir, output_zip):
     print("📦 Zipping processed dataset...")
     subprocess.run([
-        "python3", "scripts/utils/zip.py",
+        "python3", "phase1_foundation/scripts/utils/zip.py",
         "--processed_dir", processed_dir,
         "--output_zip", output_zip
     ])
@@ -44,13 +44,13 @@ def main():
 
     # Step 1: Scraping
     sources = [
-        "scripts/scrapers/image_scraper_pixabay_jp.py",
-        "scripts/scrapers/image_scraper_pexels_jp.py",
-        "scripts/scrapers/image_scraper_unsplash_jp.py",
-        "scripts/scrapers/image_scraper_google_cli.py",
-        "scripts/scrapers/image_scraper_bing_cli.py",
-        "scripts/scrapers/image_scraper_ddg_cli.py",
-        "scripts/scrapers/image_scraper_yahoo_japan_selenium.py"
+        "phase1_foundation/scripts/scrapers/image_scraper_pixabay_jp.py",
+        "phase1_foundation/scripts/scrapers/image_scraper_pexels_jp.py",
+        "phase1_foundation/scripts/scrapers/image_scraper_unsplash_jp.py",
+        "phase1_foundation/scripts/scrapers/image_scraper_google_cli.py",
+        "phase1_foundation/scripts/scrapers/image_scraper_bing_cli.py",
+        "phase1_foundation/scripts/scrapers/image_scraper_ddg_cli.py",
+        "phase1_foundation/scripts/scrapers/image_scraper_yahoo_japan_selenium.py"
     ]
     for script in sources:
         run_scraper(script, args.keywords, args.raw_dir, args.images_per_keyword)

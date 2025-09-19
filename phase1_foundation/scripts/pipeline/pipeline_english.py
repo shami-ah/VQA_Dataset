@@ -4,40 +4,49 @@ import subprocess
 def run_scraper(source, keywords_file, save_dir, images_per_keyword):
     print(f"🚀 Running scraper for {source}...")
     script_map = {
-        "google": "scripts/scrapers/image_scraper_google_cli.py",
-        "bing": "scripts/scrapers/image_scraper_bing_cli.py",
-        "duckduckgo": "scripts/scrapers/image_scraper_ddg_cli.py",
-        "pinterest": "scripts/scrapers/image_scraper_pinterest_cli.py",
-        "stock_sites": "scripts/scrapers/image_scraper_stock_sites.py",
-        "flickr": "scripts/scrapers/image_scraper_flickr_commons_hindi.py",
-        "getty": "scripts/scrapers/image_scraper_getty_hindi.py",
-        "unsplash": "scripts/scrapers/image_scraper_unsplash_jp.py",
-        "yahoo": "scripts/scrapers/image_scraper_yahoo_japan_selenium.py",
+        "google": "phase1_foundation/scripts/scrapers/image_scraper_google_cli.py",
+        "bing": "phase1_foundation/scripts/scrapers/image_scraper_bing_cli.py",
+        "duckduckgo": "phase1_foundation/scripts/scrapers/image_scraper_ddg_cli.py",
+        "pinterest": "phase1_foundation/scripts/scrapers/image_scraper_pinterest_cli.py",
+        "stock_sites": "phase1_foundation/scripts/scrapers/image_scraper_stock_sites.py",
+        "flickr": "phase1_foundation/scripts/scrapers/image_scraper_flickr_commons_hindi.py",
+        "getty": "phase1_foundation/scripts/scrapers/image_scraper_getty_hindi.py",
+        "unsplash": "phase1_foundation/scripts/scrapers/image_scraper_unsplash_jp.py",
+        "yahoo": "phase1_foundation/scripts/scrapers/image_scraper_yahoo_japan_selenium.py",
     }
 
     if source not in script_map:
         print(f"❌ Unknown source: {source}")
         return
 
-    subprocess.run([
-        "python3", script_map[source],
-        "--keywords", keywords_file,
-        "--images_per_keyword", str(images_per_keyword),
-        "--save_dir", save_dir
-    ])
+    # Handle argument inconsistency for stock_sites scraper
+    if source == "stock_sites":
+        subprocess.run([
+            "python3", script_map[source],
+            "--keywords", keywords_file,
+            "--images_per_source", str(images_per_keyword),
+            "--save_dir", save_dir
+        ])
+    else:
+        subprocess.run([
+            "python3", script_map[source],
+            "--keywords", keywords_file,
+            "--images_per_keyword", str(images_per_keyword),
+            "--save_dir", save_dir
+        ])
 
 def run_ocr(input_dir, output_dir):
     print("🔍 Running OCR filtering for English...")
     subprocess.run([
-        "python3", "scripts/ocr/filter_images_english_ocr.py",
-        "--input_dir", input_dir,
-        "--output_dir", output_dir
+        "python3", "phase1_foundation/scripts/ocr/filter_images_english_ocr.py",
+        "--source_dir", input_dir,
+        "--save_dir", output_dir
     ])
 
 def run_zip(processed_dir, output_zip):
     print("📦 Zipping processed dataset...")
     subprocess.run([
-        "python3", "scripts/utils/zip.py",
+        "python3", "phase1_foundation/scripts/utils/zip.py",
         "--processed_dir", processed_dir,
         "--output_zip", output_zip
     ])

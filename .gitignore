@@ -1,12 +1,94 @@
+# Python
 __pycache__/
-*.pyc
-*.ipynb_checkpoints
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
 venv/
+vqa_env/
+env/
+ENV/
+
+# Environment Variables
 .env
-.DS_Store
-# Ignore clutter
-.DS_Store
-venv/
+.venv
+
+# Jupyter Notebook
 *.ipynb_checkpoints/
+.ipynb_checkpoints
+
+# PyTorch/ML Models Cache
+.cache/
+*.pth
+*.pt
+*.model
+model_cache/
+
+# Hugging Face Cache
+transformers_cache/
+huggingface_cache/
+
+# System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Output directories (keep structure but ignore contents)
+*/outputs/*
+*/results/*
+phase*_output*/
+phase*_results*/
+phase*_demo*/
+test_*/
+
+# Data files (optional - uncomment if you don't want to track large datasets)
+# *.jpg
+# *.jpeg
+# *.png
+# *.bmp
+# *.tiff
+# *.webp
+# *.gif
+
+# Compressed files
 *.zip
-__pycache__/
+*.tar.gz
+*.rar
+*.7z

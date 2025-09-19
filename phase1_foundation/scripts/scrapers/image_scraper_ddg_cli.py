@@ -1,7 +1,10 @@
 import os
 import requests
 import argparse
-from duckduckgo_search import DDGS
+try:
+    from ddgs import DDGS
+except ImportError:
+    from duckduckgo_search import DDGS
 from PIL import Image
 from io import BytesIO
 from tqdm import tqdm

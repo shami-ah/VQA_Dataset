@@ -1,0 +1,256 @@
+{
+  "languages": {
+    "arabic": {
+      "code": "ar",
+      "name": "Arabic",
+      "script": "Arabic",
+      "easyocr_code": "ar",
+      "tesseract_code": "ara",
+      "fasttext_label": "__label__ar",
+      "script_unicode_ranges": [
+        "\\u0600-\\u06FF",
+        "\\u0750-\\u077F",
+        "\\u08A0-\\u08FF",
+        "\\uFB50-\\uFDFF",
+        "\\uFE70-\\uFEFF"
+      ],
+      "min_script_ratio": 0.4,
+      "quality_threshold": 0.1,
+      "language_confidence_threshold": 0.1
+    },
+    "bengali": {
+      "code": "bn",
+      "name": "Bengali",
+      "script": "Bengali",
+      "easyocr_code": "bn",
+      "tesseract_code": "ben",
+      "fasttext_label": "__label__bn",
+      "script_unicode_ranges": [
+        "\\u0980-\\u09FF"
+      ],
+      "min_script_ratio": 0.4,
+      "quality_threshold": 0.1,
+      "language_confidence_threshold": 0.1
+    },
+    "chinese": {
+      "code": "zh",
+      "name": "Chinese",
+      "script": "Chinese",
+      "easyocr_code": "ch_sim",
+      "tesseract_code": "chi_sim",
+      "fasttext_label": "__label__zh",
+      "script_unicode_ranges": [
+        "\\u4e00-\\u9fff"
+      ],
+      "min_script_ratio": 0.3,
+      "quality_threshold": 0.1,
+      "language_confidence_threshold": 0.1
+    },
+    "english": {
+      "code": "en",
+      "name": "English",
+      "script": "Latin",
+      "easyocr_code": "en",
+      "tesseract_code": "eng",
+      "fasttext_label": "__label__en",
+      "script_unicode_ranges": [
+        "\\u0020-\\u007F"
+      ],
+      "min_script_ratio": 0.5,
+      "quality_threshold": 0.1,
+      "language_confidence_threshold": 0.1
+    },
+    "french": {
+      "code": "fr",
+      "name": "French",
+      "script": "Latin",
+      "easyocr_code": "fr",
+      "tesseract_code": "fra",
+      "fasttext_label": "__label__fr",
+      "script_unicode_ranges": [
+        "\\u0020-\\u007F",
+        "\\u00C0-\\u00FF"
+      ],
+      "min_script_ratio": 0.5,
+      "quality_threshold": 0.1,
+      "language_confidence_threshold": 0.1
+    },
+    "german": {
+      "code": "de",
+      "name": "German",
+      "script": "Latin",
+      "easyocr_code": "de",
+      "tesseract_code": "deu",
+      "fasttext_label": "__label__de",
+      "script_unicode_ranges": [
+        "\\u0020-\\u007F",
+        "\\u00C0-\\u00FF"
+      ],
+      "min_script_ratio": 0.5,
+      "quality_threshold": 0.1,
+      "language_confidence_threshold": 0.1
+    },
+    "hindi": {
+      "code": "hi",
+      "name": "Hindi",
+      "script": "Devanagari",
+      "easyocr_code": "hi",
+      "tesseract_code": "hin",
+      "fasttext_label": "__label__hi",
+      "script_unicode_ranges": [
+        "\\u0900-\\u097F"
+      ],
+      "min_script_ratio": 0.4,
+      "quality_threshold": 0.1,
+      "language_confidence_threshold": 0.1
+    },
+    "japanese": {
+      "code": "ja",
+      "name": "Japanese",
+      "script": "Japanese",
+      "easyocr_code": "ja",
+      "tesseract_code": "jpn",
+      "fasttext_label": "__label__ja",
+      "script_unicode_ranges": [
+        "\\u3040-\\u309F",
+        "\\u30A0-\\u30FF",
+        "\\u4e00-\\u9fff"
+      ],
+      "min_script_ratio": 0.3,
+      "quality_threshold": 0.1,
+      "language_confidence_threshold": 0.1
+    },
+    "korean": {
+      "code": "ko",
+      "name": "Korean",
+      "script": "Hangul",
+      "easyocr_code": "ko",
+      "tesseract_code": "kor",
+      "fasttext_label": "__label__ko",
+      "script_unicode_ranges": [
+        "\\uAC00-\\uD7AF",
+        "\\u1100-\\u11FF",
+        "\\u3130-\\u318F"
+      ],
+      "min_script_ratio": 0.4,
+      "quality_threshold": 0.1,
+      "language_confidence_threshold": 0.1
+    },
+    "malay": {
+      "code": "ms",
+      "name": "Malay",
+      "script": "Latin",
+      "easyocr_code": "ms",
+      "tesseract_code": "msa",
+      "fasttext_label": "__label__ms",
+      "script_unicode_ranges": [
+        "\\u0020-\\u007F"
+      ],
+      "min_script_ratio": 0.5,
+      "quality_threshold": 0.1,
+      "language_confidence_threshold": 0.1
+    },
+    "portuguese": {
+      "code": "pt",
+      "name": "Portuguese",
+      "script": "Latin",
+      "easyocr_code": "pt",
+      "tesseract_code": "por",
+      "fasttext_label": "__label__pt",
+      "script_unicode_ranges": [
+        "\\u0020-\\u007F",
+        "\\u00C0-\\u00FF"
+      ],
+      "min_script_ratio": 0.5,
+      "quality_threshold": 0.1,
+      "language_confidence_threshold": 0.1
+    },
+    "spanish": {
+      "code": "es",
+      "name": "Spanish",
+      "script": "Latin",
+      "easyocr_code": "es",
+      "tesseract_code": "spa",
+      "fasttext_label": "__label__es",
+      "script_unicode_ranges": [
+        "\\u0020-\\u007F",
+        "\\u00C0-\\u00FF"
+      ],
+      "min_script_ratio": 0.5,
+      "quality_threshold": 0.1,
+      "language_confidence_threshold": 0.1
+    },
+    "urdu": {
+      "code": "ur",
+      "name": "Urdu",
+      "script": "Arabic",
+      "easyocr_code": "ur",
+      "tesseract_code": "urd",
+      "fasttext_label": "__label__ur",
+      "script_unicode_ranges": [
+        "\\u0600-\\u06FF",
+        "\\u0750-\\u077F"
+      ],
+      "min_script_ratio": 0.4,
+      "quality_threshold": 0.1,
+      "language_confidence_threshold": 0.1
+    }
+  },
+  "filtering_settings": {
+    "multi_ocr": {
+      "require_both_engines": false,
+      "min_text_length": 2,
+      "confidence_threshold": 0.3
+    },
+    "quality_classifier": {
+      "model": "MobileNetV2",
+      "confidence_threshold": 0.1,
+      "filter_categories": [
+        "folder", "envelope", "CD_player", "desktop_computer", "laptop",
+        "computer_keyboard", "computer_mouse", "remote_control", "cellular_telephone",
+        "iPod", "digital_clock", "screen", "television", "radio",
+        "spider_web", "chain_mail", "honeycomb", "jigsaw_puzzle", "crossword_puzzle",
+        "maze", "prayer_rug", "quilt", "chain_saw", "slot_machine",
+        "spotlight", "stage", "theater_curtain", "projector", "screen",
+        "blackboard", "white_board", "bulletin_board", "magnetic_board",
+        "menu", "dialog_box", "computer_screen", "monitor", "CRT_screen"
+      ],
+      "min_image_size": [50, 50],
+      "max_aspect_ratio": 5.0,
+      "min_aspect_ratio": 0.2,
+      "min_std_deviation": 10.0,
+      "min_color_range": 15.0
+    },
+    "language_verification": {
+      "model": "fasttext",
+      "confidence_threshold": 0.1,
+      "min_text_length": 1
+    }
+  },
+  "processing_settings": {
+    "batch_size": 32,
+    "max_workers": 4,
+    "timeout_seconds": 30,
+    "retry_attempts": 2
+  },
+  "phase1_integration": {
+    "data_directories": {
+      "phase1_raw": "phase1_foundation/data/raw_{language}",
+      "phase1_processed": "phase1_foundation/data/processed_{language}",
+      "phase2_filtered": "phase2_keywords/data/filtered_{language}"
+    },
+    "pipeline_sequence": [
+      "keyword_loading",
+      "image_scraping", 
+      "phase1_ocr_filtering",
+      "phase2_multi_ocr_fusion",
+      "phase2_quality_classification",
+      "phase2_language_verification"
+    ],
+    "auto_cleanup": {
+      "remove_raw_after_processing": false,
+      "remove_intermediate_files": true,
+      "keep_failed_images_log": true
+    }
+  }
+}

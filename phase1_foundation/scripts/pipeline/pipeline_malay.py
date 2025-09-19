@@ -4,13 +4,13 @@ import subprocess
 def run_scraper(source, keywords_file, save_dir, images_per_source):
     print(f"🚀 Running scraper for {source}...")
     script_map = {
-        "bing": "scripts/scrapers/image_scraper_bing_cli.py",
-        "google": "scripts/scrapers/image_scraper_google_cli.py",
-        "pinterest": "scripts/scrapers/image_scraper_pinterest_cli.py",
-        "stock": "scripts/scrapers/image_scraper_stock_sites.py",
-        "pexels": "scripts/scrapers/image_scraper_pexels_jp.py",   # Rename if you want to clone it as Malay version
-        "yahoo": "scripts/scrapers/image_scraper_yahoo_hindi.py",  # Use this or make a copy for Malay
-        "flickr": "scripts/scrapers/image_scraper_flickr_commons_hindi.py"  # Can reuse or clone
+        "bing": "phase1_foundation/scripts/scrapers/image_scraper_bing_cli.py",
+        "google": "phase1_foundation/scripts/scrapers/image_scraper_google_cli.py",
+        "pinterest": "phase1_foundation/scripts/scrapers/image_scraper_pinterest_cli.py",
+        "stock": "phase1_foundation/scripts/scrapers/image_scraper_stock_sites.py",
+        "pexels": "phase1_foundation/scripts/scrapers/image_scraper_pexels_jp.py",   # Rename if you want to clone it as Malay version
+        "yahoo": "phase1_foundation/scripts/scrapers/image_scraper_yahoo_hindi.py",  # Use this or make a copy for Malay
+        "flickr": "phase1_foundation/scripts/scrapers/image_scraper_flickr_commons_hindi.py"  # Can reuse or clone
     }
 
     if source not in script_map:
@@ -29,7 +29,7 @@ def run_scraper(source, keywords_file, save_dir, images_per_source):
 def run_ocr(input_dir, output_dir):
     print("🔍 Running OCR filtering...")
     subprocess.run([
-        "python3", "scripts/ocr/filter_images_malay_ocr.py",
+        "python3", "phase1_foundation/scripts/ocr/filter_images_malay_ocr.py",
         "--input_dir", input_dir,
         "--output_dir", output_dir
     ])
@@ -37,7 +37,7 @@ def run_ocr(input_dir, output_dir):
 def run_zip(processed_dir, output_zip):
     print("📦 Zipping processed dataset...")
     subprocess.run([
-        "python3", "scripts/utils/zip.py",
+        "python3", "phase1_foundation/scripts/utils/zip.py",
         "--processed_dir", processed_dir,
         "--output_zip", output_zip
     ])

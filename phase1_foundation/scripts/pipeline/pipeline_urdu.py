@@ -4,8 +4,8 @@ import subprocess
 def run_scraper(source, keywords_file, save_dir, images_per_keyword):
     print(f"🚀 Running scraper for {source}...")
     script_map = {
-        "bing": "scripts/scrapers/image_scraper_bing_cli.py",
-        "google": "scripts/scrapers/image_scraper_google_cli.py"
+        "bing": "phase1_foundation/scripts/scrapers/image_scraper_bing_cli.py",
+        "google": "phase1_foundation/scripts/scrapers/image_scraper_google_cli.py"
     }
 
     if source not in script_map:
@@ -22,7 +22,7 @@ def run_scraper(source, keywords_file, save_dir, images_per_keyword):
 def run_ocr(input_dir, output_dir):
     print("🔍 Running OCR filtering...")
     subprocess.run([
-        "python3", "scripts/ocr/filter_images_urdu_ocr.py",
+        "python3", "phase1_foundation/scripts/ocr/filter_images_urdu_ocr.py",
         "--input_dir", input_dir,
         "--output_dir", output_dir
     ])
@@ -30,7 +30,7 @@ def run_ocr(input_dir, output_dir):
 def run_zip(processed_dir, output_zip):
     print("📦 Zipping processed dataset...")
     subprocess.run([
-        "python3", "scripts/utils/zip.py",
+        "python3", "phase1_foundation/scripts/utils/zip.py",
         "--processed_dir", processed_dir,
         "--output_zip", output_zip
     ])

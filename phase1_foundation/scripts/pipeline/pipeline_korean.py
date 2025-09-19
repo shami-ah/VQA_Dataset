@@ -14,7 +14,7 @@ def run_scraper(script, keywords_file, save_dir, images_per_keyword):
 def run_ocr(input_dir, output_dir):
     print("🔍 Running OCR...")
     subprocess.run([
-        "python3", "scripts/ocr/filter_images_korean_ocr.py",
+        "python3", "phase1_foundation/scripts/ocr/filter_images_korean_ocr.py",
         "--input_dir", input_dir,
         "--output_dir", output_dir
     ])
@@ -22,7 +22,7 @@ def run_ocr(input_dir, output_dir):
 def run_zip(processed_dir, output_zip):
     print("📦 Zipping dataset...")
     subprocess.run([
-        "python3", "scripts/utils/zip.py",
+        "python3", "phase1_foundation/scripts/utils/zip.py",
         "--processed_dir", processed_dir,
         "--output_zip", output_zip
     ])
@@ -37,11 +37,11 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     # Run each scraper
-    run_scraper("scripts/scrapers/image_scraper_google_cli.py", args.keywords, args.raw_dir, args.images_per_keyword)
-    run_scraper("scripts/scrapers/image_scraper_bing_cli.py", args.keywords, args.raw_dir, args.images_per_keyword)
-    run_scraper("scripts/scrapers/image_scraper_daum_selenium_korean.py", args.keywords, args.raw_dir, args.images_per_keyword)
-    run_scraper("scripts/scrapers/image_scraper_naver_selenium_korean.py", args.keywords, args.raw_dir, args.images_per_keyword)
-    run_scraper("scripts/scrapers/image_scraper_korean_blog_news.py", args.keywords, args.raw_dir, args.images_per_keyword)  # ✅ Added here
+    run_scraper("phase1_foundation/scripts/scrapers/image_scraper_google_cli.py", args.keywords, args.raw_dir, args.images_per_keyword)
+    run_scraper("phase1_foundation/scripts/scrapers/image_scraper_bing_cli.py", args.keywords, args.raw_dir, args.images_per_keyword)
+    run_scraper("phase1_foundation/scripts/scrapers/image_scraper_daum_selenium_korean.py", args.keywords, args.raw_dir, args.images_per_keyword)
+    run_scraper("phase1_foundation/scripts/scrapers/image_scraper_naver_selenium_korean.py", args.keywords, args.raw_dir, args.images_per_keyword)
+    run_scraper("phase1_foundation/scripts/scrapers/image_scraper_korean_blog_news.py", args.keywords, args.raw_dir, args.images_per_keyword)  # ✅ Added here
 
     run_ocr(args.raw_dir, args.processed_dir)
     run_zip(args.processed_dir, args.zip_path)

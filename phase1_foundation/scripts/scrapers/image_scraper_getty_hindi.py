@@ -19,7 +19,16 @@ def setup_driver():
     chrome_options.add_argument("--headless")
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
-    return webdriver.Chrome(options=chrome_options)
+    
+    # Try webdriver-manager first
+    try:
+        from webdriver_manager.chrome import ChromeDriverManager
+        from selenium.webdriver.chrome.service import Service
+        service = Service(ChromeDriverManager().install())
+        return webdriver.Chrome(service=service, options=chrome_options)
+    except Exception:
+        # Fallback to system ChromeDriver
+        return webdriver.Chrome(options=chrome_options)
 
 def download_image(url: str, path: str) -> bool:
     try:

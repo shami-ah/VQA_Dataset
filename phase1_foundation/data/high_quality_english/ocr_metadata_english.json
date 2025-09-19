@@ -1,0 +1,2213 @@
+{
+  "metadata": [
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/chemistry_formula_0005.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/chemistry_formula_0005.jpg",
+      "ocr_text": "Chemicol ond Eormulo Chart Formula Chemical Formula Chemicol No Sadium NoC Sadium Crloride Woler CoHa04 ispitin CsHi 06 Glucase HCL Eydrachlaric Acid CxHao Alcanal Zn (NQah Zinc CaS04 Sulfate Group Carocn Moroxide Hydrogen NoOH Scdium Hydroxide Sulfide NaCN Scdium Cyanid? Nacl Salt Ca(CN}) Calcium Cyonide Oxygen Gala CiHo 0 Ethonal ladine CaHa O: Vinegor Tin NHe Amroodic Caks Benzene Mg Mognesium Hydrcgen Sulfide CzHaOz Acetic icid CHaCacHa Acetone CHio Gutane HaPOA Phoapharic Acid NOg Nittote Cah Pentone Ccpper CH:OH Methancl Nitragen HBr Hydrobramic Acid Catbon Dioxide HzCOz Carbonic Acid HS04 Sulfuric Bclda Dtanium CHs Metbane NaCIC Sodium Hypochlarite Cu HiDui Sucrose C2H6 Ethone Ca Ha Prapan? (NHalz SOa Ammonium  Sulfate NoHco3 Baking Sodo CaHae Octone H20 Petoxide CuS04 Coppet Sulfaie CaHioll4D2 Caffeine COz Dcy Ice Hz SOa Sulfuroue Acid) NoNOz Scdiumr Nitrote",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [],
+        "english_text": true,
+        "educational_content": true,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 878
+      },
+      "text_length": 878,
+      "educational_score": 1.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/yahoo_physics_tutorial_016.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/yahoo_physics_tutorial_016.jpg",
+      "ocr_text": "EnergY Mled PE Med LE High KE Tatal enen9y PE + KE Physies",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 58
+      },
+      "text_length": 58,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/yahoo_history_timeline_014.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/yahoo_history_timeline_014.jpg",
+      "ocr_text": "Timeline of World History",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [],
+        "english_text": true,
+        "educational_content": true,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 25
+      },
+      "text_length": 25,
+      "educational_score": 1.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/yahoo_biology_diagram_019.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/yahoo_biology_diagram_019.jpg",
+      "ocr_text": "Human brain (Lateral view)",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 26
+      },
+      "text_length": 26,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/yahoo_history_timeline_028.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/yahoo_history_timeline_028.jpg",
+      "ocr_text": "B?ITISH HSTO?Y TUEUNE",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 21
+      },
+      "text_length": 21,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/yahoo_history_timeline_015.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/yahoo_history_timeline_015.jpg",
+      "ocr_text": "Prehistory Milon C37 . Blugo Hlstory 77613C row8dg  * [Someovsr",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [],
+        "english_text": true,
+        "educational_content": true,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 63
+      },
+      "text_length": 63,
+      "educational_score": 1.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/bing_algebra_worksheet_008.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/bing_algebra_worksheet_008.jpg",
+      "ocr_text": "FUNCTION NOTATION Junlin AOE 3oa 149 flLe khd fT Sdati 6 FerMne Jle Mct Atam Aua =& id 7044 [04aJ",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 97
+      },
+      "text_length": 97,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/pixabay_algebra_worksheet_004.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/pixabay_algebra_worksheet_004.jpg",
+      "ocr_text": "Zo Vincident Zo Vreflected T= incident Fa+(+0)+G+2 O+c reflectedl T= elz Im(T) 22 Im(z) = 0 Re(T ) T-0 I= pbaro_ Ts- short impedance etrcuit matched open circuit 83 a P-2l+2w b laxpl ~b+Vbz 4ac -2a",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 197
+      },
+      "text_length": 197,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/yahoo_physics_tutorial_029.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/yahoo_physics_tutorial_029.jpg",
+      "ocr_text": "phasics Ex Ml [81L0",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 19
+      },
+      "text_length": 19,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/yahoo_biology_diagram_026.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/yahoo_biology_diagram_026.jpg",
+      "ocr_text": "Synapse Notc Jolkc Matcchand\"l Snjdlitex  Pintc itrco7\"C Upjut Sui IxS Aonic Mdane",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 82
+      },
+      "text_length": 82,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/yahoo_biology_diagram_027.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/yahoo_biology_diagram_027.jpg",
+      "ocr_text": "FuLu; # 03 verec Flcia Ver Cat antn Fal{",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 40
+      },
+      "text_length": 40,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/yahoo_physics_tutorial_028.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/yahoo_physics_tutorial_028.jpg",
+      "ocr_text": "aorkem\" PHVSICS Wrahi Sljx? Jjd joukc Rrv; B,V; EEWG\" 98 wetous 45,000 HS (9 kis) 120 C0u JuzikJ) Fe ma Dr J0 Mis = Gujtris",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 123
+      },
+      "text_length": 123,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/chemistry_formula_0007.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/chemistry_formula_0007.jpg",
+      "ocr_text": "25 TrpoRTanT chemical Dal FoRM TuLAS SShuaal CHEMICAL NAME EoRNULAS Cskon Dioxide 2 Sulphuse Di aride 3 Sulphuse Tu oxide 4= Caukon Monoxide Maghezium axide Watul ~Ammonia Glucose 9 Eesuic axide lo Lead oxide Il Lead chloxide 42 Lead Nitrate 13 - Cobbex chlosude 14 - Calcium axide IS. Calcium Hydroxide I6 Calcim Cibonati 1+ Coppex Sulphati 48 - Zinc Sulphate I9 Calcium_Sulphotz 2o - Eexous Sulphabe 21- Aluminium_Gulphal 22 - Bauum SuLphati 23- Sodium Sulphat 24- Laad Sulphati 25- Cobbut axide Coz 5oz So3 Co m; Hzo NHz Cs_Hiz Oa Ee 2 03 PBo PbcLz Pb_CNOz)) Cucl_ Cao Ca CoH)2 Ca Cos Cuso+ Zn 504 CaSoy EeSoy Alz_(So4lz Ba Soy Na 2 504 PbSoy CuQ",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 649
+      },
+      "text_length": 649,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/pixabay_algebra_worksheet_003.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/pixabay_algebra_worksheet_003.jpg",
+      "ocr_text": "\"ojj= MLGEBRLII 1 3 nJO_ 6",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 26
+      },
+      "text_length": 26,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/yahoo_biology_diagram_023.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/yahoo_biology_diagram_023.jpg",
+      "ocr_text": "Ritt1 Lldery InLan rrdn Urnan hleduct",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 37
+      },
+      "text_length": 37,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/yahoo_biology_diagram_022.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/yahoo_biology_diagram_022.jpg",
+      "ocr_text": "Structure of Heart efCommon nuly Hcakahin Grolig McfiacoJm Lecum Ji Tocetn {urtetu4 Lerane Bokiocon Riuhtalunt ~tan Ydt Dct:%rrndc LELATZA Cudaauc R &tu uo elor",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 160
+      },
+      "text_length": 160,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/chemistry_formula_0002.png",
+      "original_path": "phase1_foundation/data/raw_english_test/chemistry_formula_0002.png",
+      "ocr_text": "Chemical Formula chemical formula indicates the elements and their proportions in a compound, Empirical Formula Molecular Formula CzH5 C H1o simplest whole number ratio number and type of atoms Condensed Formula Structural Formula H H H H CH3` CH2 CHz CH3 H-C-C ~C~H order and formula of functional groups graphic representation of structure sciencenotes.org",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [],
+        "english_text": true,
+        "educational_content": true,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 358
+      },
+      "text_length": 358,
+      "educational_score": 1.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/bing_physics_tutorial_009.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/bing_physics_tutorial_009.jpg",
+      "ocr_text": "Physicpan -utorialspoin",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 23
+      },
+      "text_length": 23,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/bing_physics_tutorial_008.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/bing_physics_tutorial_008.jpg",
+      "ocr_text": "LIV LEARNII sics h Physics Part 1",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [],
+        "english_text": true,
+        "educational_content": true,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 33
+      },
+      "text_length": 33,
+      "educational_score": 1.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/pixabay_grammar_lesson_004.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/pixabay_grammar_lesson_004.jpg",
+      "ocr_text": "English Idngudge Hil Hellol Goodbyel How qre yo4?",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 49
+      },
+      "text_length": 49,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/bing_grammar_lesson_008.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/bing_grammar_lesson_008.jpg",
+      "ocr_text": "OBJECT PRONOUNS WAIFL #AAT4 HAFLIEEA Urids 68{M ##md' 7Atn Glhten Glc_ ephir Shrhr (mmtnher' G tonoil 4iki In THCM ~Mtndrm' nfatatedeuaiie manarnann + FnuJp Seeeteeefee 4ndtmtae i 0\"",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 182
+      },
+      "text_length": 182,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/grammar_lesson_0000.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/grammar_lesson_0000.jpg",
+      "ocr_text": "Parts of Speech Hon AOVder VERE ADJECTIVE PREPOSITIOH COHJUNcTiON Lto aeensa Tuarali MdniOin PRONOUN INTERJEcTON Imeteeetieo Wttet tin nlt Fi wwu englishstudyhere.com",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [],
+        "english_text": true,
+        "educational_content": true,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 166
+      },
+      "text_length": 166,
+      "educational_score": 1.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/pixabay_chemistry_formula_003.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/pixabay_chemistry_formula_003.jpg",
+      "ocr_text": "FCha #No (Q q(och; 1n-(h S{lz KNnOL nch Puxfl Rgl",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 49
+      },
+      "text_length": 49,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/grammar_lesson_0001.png",
+      "original_path": "phase1_foundation/data/raw_english_test/grammar_lesson_0001.png",
+      "ocr_text": "Suffix -OR This is a director. A director is person who directs movies_ The word director contains the suffix -or_ suffix is group of letters that is added to the end of a word, suffix changes the meaning of word. The suffix -or means person who or thing that. Watch the video to learn more about the suffix -or Required Video: The suffix or means person who director person who directs author person who writes books Heueiu",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [],
+        "english_text": true,
+        "educational_content": true,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 424
+      },
+      "text_length": 424,
+      "educational_score": 1.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/yahoo_math_equation_015.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/yahoo_math_equation_015.jpg",
+      "ocr_text": "sinp = 11+6+#+ 2sin z ( 1 8)_ 3 + cos + Zab + b2 2 (a F B a2 + b2 =c2 (1 +x ?cosz (a + B) cosz (a _ ' + nx R)",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 109
+      },
+      "text_length": 109,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/pixabay_chemistry_formula_002.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/pixabay_chemistry_formula_002.jpg",
+      "ocr_text": "M CH, CHCH; Ho CoOH Ho' CH, UC CH, CHz 1 COOH",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 45
+      },
+      "text_length": 45,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/bing_grammar_lesson_009.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/bing_grammar_lesson_009.jpg",
+      "ocr_text": "GRAMMAR STUDY CULDE",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [],
+        "english_text": true,
+        "educational_content": true,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 19
+      },
+      "text_length": 19,
+      "educational_score": 1.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/grammar_lesson_0003.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/grammar_lesson_0003.jpg",
+      "ocr_text": "ENGLISH GRAMMAR WILL Woodward Affirmative will +verb The base form of the infinitive will go there tomorrow: to go, to study; You will go there on Friday: to speak, etc: He will go there next week: She will go there next month: You will to go. It will go there next year: You will) go. We will) go there later: He will) goes: They will) go there soon_ He will go: In spoken English, a contraction of WILL is often used: will will go there tomorrow_ You will YouII FII go there tomorrow: He will He'II We will see you later: She will SheII We'II see you later: It (will It'II 1 We will We'II He will help you soon. They will They'II He'Il help you soon: WWW grammarcl wwW woodwardenglish.com wwWvocabularycl",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [],
+        "english_text": true,
+        "educational_content": true,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 706
+      },
+      "text_length": 706,
+      "educational_score": 1.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/yahoo_grammar_lesson_023.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/yahoo_grammar_lesson_023.jpg",
+      "ocr_text": "Chart of Grammar Tenses",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [],
+        "english_text": true,
+        "educational_content": true,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 23
+      },
+      "text_length": 23,
+      "educational_score": 1.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/pixabay_chemistry_formula_000.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/pixabay_chemistry_formula_000.jpg",
+      "ocr_text": "'~=czh #R-_ cha (99)+H,oU) = N-mg (2ql Jn4+\"XFiE CNus]l# ] 4 ~ ~H PxM, oluc-C @)chz-ch_inz (c9)+ Mci(A) [N#F ] Ka E-(-ew)63) Ent][x ] ch; oFe_ 3t [HX] Fe(cid4) ( s)+ 6Hzc0) . ASzn? h(vz/v,) F{H,o} 3cic, 4s\" Ens\" 2_S\" Aa /R7 HCzhaozl)= #te1#Gljol4) Kp ZnAH; (produets) - EmAH; (reerkat) ch;- (ch,)s T41 Llit< PH . ~o [H*] \"\"Tk+ 3#< E= * [cc* 'J[F ]\" 907+ Kop' AE-c\"  Am 442>2H20 iucao ~h\" :C- 'CI= # -- Saunv 9sur[Ts A9 [T &og K = 00512 Oks) + ?€- + Hn,DCs)+2NHsle7* Hzoce) ~oH 2nh # (eq) +J4a\" () ~ Zn27 (09) +2\" S_c43 5i02 +6hF HzSiFs +2H,0 CHchi CH3",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 551
+      },
+      "text_length": 551,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/grammar_lesson_0002.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/grammar_lesson_0002.jpg",
+      "ocr_text": "'GAMe \" TOday) OF PARiS SPEECH Noun (Naming Word) Nomos = Pason Pacc: Mnq idco indudi ng dars ond montht The kids like to play soccer in July: 2 Adjective (Describing Word) HURRAYI Describos. nouniO Ieliing wtat kind; whkh one_ how many how much BRAVOI The energetic kids play two sports in sunny July: Verb (Action Word) Shows octon combines with onolher verb torm phrose, ond Tnks the subject words Itat descnbe The kids kick the soccer ball, run up and down the field, and feel tired at the end of the game: Pronoun (Replaces a Noun) Replces = noun noun phrose A boy scores a goal, and he is very excited! teAMH 6 Conjunction (Joining Word) c0 Unks words phrases The crowd cheered and clapped: Adverb (Describes a Verb) Doscribos odjcctvc, anothc advtrb; # ofton cnds in \"h The player easily scored another goal and happily ran back to the starting line: AWESOME ! Interjection (Expressive Word) Expresses strong feeling emoton \"Hurray! Awesomel Bravo!\" shouted the delighted fans: 18 Preposition (Connects Words) Shows the rclabonship belween . noun pronoun and onother word in Ine sentence The coach looked across the field and smiled at the players",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 1154
+      },
+      "text_length": 1154,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/flickr_history timeline_000.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/flickr_history timeline_000.jpg",
+      "ocr_text": "the beoinnin",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 12
+      },
+      "text_length": 12,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/bing_biology_diagram_007.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/bing_biology_diagram_007.jpg",
+      "ocr_text": "plenl Ge 6 &",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 12
+      },
+      "text_length": 12,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/yahoo_chemistry_formula_012.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/yahoo_chemistry_formula_012.jpg",
+      "ocr_text": "Chemiser mdoundformula Cuso Naok Mgci; sluttcrtck",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [],
+        "english_text": true,
+        "educational_content": true,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 49
+      },
+      "text_length": 49,
+      "educational_score": 1.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/yahoo_grammar_lesson_027.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/yahoo_grammar_lesson_027.jpg",
+      "ocr_text": "ENGLSH GRAMMAR LESSON ENOUGH ENOUGH nouah Incuat",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [],
+        "english_text": true,
+        "educational_content": true,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 48
+      },
+      "text_length": 48,
+      "educational_score": 1.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/pixabay_chemistry_formula_004.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/pixabay_chemistry_formula_004.jpg",
+      "ocr_text": "NO Ry OH HO: CH NO 4 HN Ch HO HNOs Ho Cgt 13",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 44
+      },
+      "text_length": 44,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/grammar_lesson_0007.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/grammar_lesson_0007.jpg",
+      "ocr_text": "might and may are modal verbs subject might verb Imay subject might may verb visit the art gallery today: you see that film tonight: pFFL he read this book she might may be at home_ snow later today: we eat pizza tonight: they go on a vacation in Chile_ 2014-2021 Global Onllne Language Services Inc OFFZCLASS",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 309
+      },
+      "text_length": 309,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/bing_math_equation_008.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/bing_math_equation_008.jpg",
+      "ocr_text": "~b+Vb? 20 Ciettaderet",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 21
+      },
+      "text_length": 21,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/pixabay_chemistry_formula_012.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/pixabay_chemistry_formula_012.jpg",
+      "ocr_text": "H-2' H= K1si H+a 8~ H NV J3 N~ n-GoH Ns G 0su \" 1G6",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 51
+      },
+      "text_length": 51,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/yahoo_grammar_lesson_019.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/yahoo_grammar_lesson_019.jpg",
+      "ocr_text": "A NEITHER - EITHER KMEAR I Qtnaacy SUBJECT Rewn A Ran 3 Fntt urenttTy ng Heentee Seve doesnt /xehsh doee 10x16agi Mriri {at 4iett aetet HmnFi4n FI arher Idn:k tmemher 2ndene nntenh Heun t n #rrttn  nnd orhet Uatuee uro Mnlle ItojUnixchen wenileate udntuuu Snec HIehn Setetea T4ctt IttHn erher Hecae  nenna Mdu ahaun : Lnet [1qu3ed hacrteniead achedd uiumnttaerhe Itlnl~  tlt\" Tet AFII-Eeehec",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 391
+      },
+      "text_length": 391,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/yahoo_grammar_lesson_025.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/yahoo_grammar_lesson_025.jpg",
+      "ocr_text": "might and may are modal verbs Sueccc Imay subject might { may Vcro Ihe an gallery loday: unathlm tcninhl tris book Rcma pfF Minhl / milt (ater today: 0izza tonight j \"icalion In Crc CEJCLLS",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 189
+      },
+      "text_length": 189,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/yahoo_chemistry_formula_038.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/yahoo_chemistry_formula_038.jpg",
+      "ocr_text": "lnkaloi Aeduut CHMGL VAME FoRMULAS Zioc ouae &dum Culbonal: Cotln Khoejaon ~lAnt: TJoroizati JMe Loe cido lminaum Rotnoxibe Nunaeum Hiatas Dmton -Um Aijrorde ltirom Dyge Zro Quhina Ne4LOt C~xfs 'Cojja Niy oH Gc {nn",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [],
+        "english_text": true,
+        "educational_content": true,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 214
+      },
+      "text_length": 214,
+      "educational_score": 1.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/bing_math_equation_009.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/bing_math_equation_009.jpg",
+      "ocr_text": "6# Uuo ~tJe S~ RG '4 Juxte f Lan lua t4t-me  2 1p#1 e 50* n Jcttaa nn G5f64 R JA *43j A RIk 644 \" 74' X444 {t\"#ht ~n(ej]\" #~f~-jeus* 4ii\" Xr",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 140
+      },
+      "text_length": 140,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/grammar_lesson_0004.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/grammar_lesson_0004.jpg",
+      "ocr_text": "GRAMMAR STUDY GUIDE A COLLECTON OF WORKSHEETS ALL ABOUT GRAMMAR",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [],
+        "english_text": true,
+        "educational_content": true,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 63
+      },
+      "text_length": 63,
+      "educational_score": 1.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/bing_biology_diagram_011.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/bing_biology_diagram_011.jpg",
+      "ocr_text": "Human Skn Cenditlong",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 20
+      },
+      "text_length": 20,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/pixabay_biology_diagram_006.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/pixabay_biology_diagram_006.jpg",
+      "ocr_text": "Seed Endosperm Embryo Seed coat Pericarp Endocarp Mesocarp Exocarp",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 66
+      },
+      "text_length": 66,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/bing_math_equation_010.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/bing_math_equation_010.jpg",
+      "ocr_text": "Iim xfln(x) F,)-r {52} 2wi(n-PS",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 31
+      },
+      "text_length": 31,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/bing_math_equation_004.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/bing_math_equation_004.jpg",
+      "ocr_text": "ToolBaz Math Equation Solver qurutey dvutred JaC Euualiunsulvu Gul Aup Ialulaima ulmintee Tr Nowy",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [],
+        "english_text": true,
+        "educational_content": true,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 97
+      },
+      "text_length": 97,
+      "educational_score": 1.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/bing_chemistry_formula_012.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/bing_chemistry_formula_012.jpg",
+      "ocr_text": "Chemical Formula RTcIIAFn 3H,SO 4 Coefficient Element Symbols Subscript",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [],
+        "english_text": true,
+        "educational_content": true,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 71
+      },
+      "text_length": 71,
+      "educational_score": 1.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/physics tutorial_005.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/physics tutorial_005.jpg",
+      "ocr_text": "PRoJEcTILE Motion KEY POINTS two-dimensional motion projectile has parabolic trajectory acceleration is -9 HORIZONTAL RANGE MAXIMUM HeigHT R=4 sinze H= \"sinte TIME OF FLiGHT EQUATION OF TRAJECTORY T= Zusine y= ( (tanelx-9 2u? cos20",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [],
+        "english_text": true,
+        "educational_content": true,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 231
+      },
+      "text_length": 231,
+      "educational_score": 1.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/physics tutorial_004.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/physics tutorial_004.jpg",
+      "ocr_text": "atellervnnklo; Lcino7? How To MAKE Physics notes",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [],
+        "english_text": true,
+        "educational_content": true,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 48
+      },
+      "text_length": 48,
+      "educational_score": 1.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/yahoo_math_equation_034.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/yahoo_math_equation_034.jpg",
+      "ocr_text": "y 2+2 JX A € 8 t + LEARNZOE",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [],
+        "english_text": true,
+        "educational_content": true,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 27
+      },
+      "text_length": 27,
+      "educational_score": 1.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/math_equation_0000.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/math_equation_0000.jpg",
+      "ocr_text": "EXAMPLES 11+x + Zx(5 _ x) x3",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [],
+        "english_text": true,
+        "educational_content": true,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 28
+      },
+      "text_length": 28,
+      "educational_score": 1.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/yahoo_chemistry_formula_020.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/yahoo_chemistry_formula_020.jpg",
+      "ocr_text": "CGh Lanhon Catndt ChEle",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 23
+      },
+      "text_length": 23,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/yahoo_grammar_lesson_014.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/yahoo_grammar_lesson_014.jpg",
+      "ocr_text": "adechau 64ie Aicrc_ 'cAtat ~@TEAMI Eccilrcon da Uuen AC/em 7m Nejuthcr CPAri Aneedln \"Foztcr Parts  Speech | (HURRAY)",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 117
+      },
+      "text_length": 117,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/bing_biology_diagram_009.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/bing_biology_diagram_009.jpg",
+      "ocr_text": "BIJ36\" ~Fcro  ciicrms",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 21
+      },
+      "text_length": 21,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/physics_tutorial_0005.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/physics_tutorial_0005.jpg",
+      "ocr_text": "Car V, 0 Truck V<i0 V : Iomts V:0 (c sdr G 2 3,0ws? 6&7 € cx? d V = sd 6t t 2t Sd : Val Id - (0 L2 J <vt +!a",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 108
+      },
+      "text_length": 108,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/yahoo_chemistry_formula_022.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/yahoo_chemistry_formula_022.jpg",
+      "ocr_text": "Grurc enehlann Gorcents Ceann DeE [TID: neene 47m Elcecet W Luny<i _ Cnenen  Ftene Gn ExiL' /9a08",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 97
+      },
+      "text_length": 97,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/bing_chemistry_formula_010.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/bing_chemistry_formula_010.jpg",
+      "ocr_text": "LtcHCeCIc K_L EAAO MS Rl crun 457 Oa uC_ie Pd-tid H-Can-4 445 Cusl 4u ca.{el;",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 77
+      },
+      "text_length": 77,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/yahoo_grammar_lesson_017.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/yahoo_grammar_lesson_017.jpg",
+      "ocr_text": "ThIS; THAT ThESE;THOse USAGE THIS THAT 35 1 Lhis book Lhat book THESE THOSE E 93 3 these baoks those books",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 106
+      },
+      "text_length": 106,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/physics_tutorial_0004.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/physics_tutorial_0004.jpg",
+      "ocr_text": "GRADE 12 PHYSICS TUTORIAL Forces, Inclines and Pulleys Ced Qotons? 4kJ A 01 8K F 0' 30' 51",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [],
+        "english_text": true,
+        "educational_content": true,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 90
+      },
+      "text_length": 90,
+      "educational_score": 1.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/bing_grammar_lesson_007.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/bing_grammar_lesson_007.jpg",
+      "ocr_text": "ENGLISH GRAMMAR LESSONS All Grammar Knowledge You needi 5u Cammcr Jonsas I7 Lnotar Sunce RresenTerse cushudloesube Smc: Past Ionrc DodRcnsa Tanac Ncuns Ptahtnd Fredotion; Adotm Aodett Comlt c Uordsints [572s0n Dened err- STILE eLU",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [],
+        "english_text": true,
+        "educational_content": true,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 230
+      },
+      "text_length": 230,
+      "educational_score": 1.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/physics_tutorial_0000.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/physics_tutorial_0000.jpg",
+      "ocr_text": "Intro to Physics 1. Distance & Displacement 7. Normal Force 2_ Speed vs Velocity 8. Static & Kinetic Friction 3. Acceleration 9. Gravitational Force 4. Scalar & Vector Quantities 10. Centripetal Force 5 Projectile Motion 11 Kinetic & Potential Energy 6_ Newton' s Laws of Motion 12 _ Momentum",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [],
+        "english_text": true,
+        "educational_content": true,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 292
+      },
+      "text_length": 292,
+      "educational_score": 1.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/yahoo_math_equation_033.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/yahoo_math_equation_033.jpg",
+      "ocr_text": "PV-nrt & bal) -~kaz 4emcat VEVo +4t 0t% Penv Joly * Vabr Sip 28 Raeled Ing 4 Lmve PIU 4 VAIR Pv - npt",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 101
+      },
+      "text_length": 101,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/physics tutorial_003.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/physics tutorial_003.jpg",
+      "ocr_text": "how <o 3e449} physic",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 20
+      },
+      "text_length": 20,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/physics tutorial_002.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/physics tutorial_002.jpg",
+      "ocr_text": "#ow to study -Physics youchate it? (If yourfindkevertjiring coniusyy)",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [],
+        "english_text": true,
+        "educational_content": true,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 69
+      },
+      "text_length": 69,
+      "educational_score": 1.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/yahoo_grammar_lesson_012.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/yahoo_grammar_lesson_012.jpg",
+      "ocr_text": "WILL +Agimative +vLb therecmonoy. Incne Fridiy_ Tnere nereey TA enermtuna tnaeneyea_ tnerc Iaicr; socn. Ol OC ineilitl to uo In #preri Enq i4_ corlnaelnndl Ule\"used thcr omortoi You |E Hc\"II She'l there tomoriow SeeyDu later. We\"Il syou later: hele - Nousocn help YOu 3ucn. ney /",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 279
+      },
+      "text_length": 279,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/physics_tutorial_0001.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/physics_tutorial_0001.jpg",
+      "ocr_text": "Physics Introduction Fzma h V=Vvx+V1 4 Fc = MV Vz",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [],
+        "english_text": true,
+        "educational_content": true,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 49
+      },
+      "text_length": 49,
+      "educational_score": 1.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/bing_grammar_lesson_012.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/bing_grammar_lesson_012.jpg",
+      "ocr_text": "(ninuC HOW TO Rertn] LEARN GRAMMAR",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [],
+        "english_text": true,
+        "educational_content": true,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 34
+      },
+      "text_length": 34,
+      "educational_score": 1.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/bing_grammar_lesson_006.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/bing_grammar_lesson_006.jpg",
+      "ocr_text": "Enalich Crammar ~fUA Conheh-r",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 29
+      },
+      "text_length": 29,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/bing_grammar_lesson_010.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/bing_grammar_lesson_010.jpg",
+      "ocr_text": "HOV TO TEACH A VONDERFULLY COMPLETE IRANNAR LESSON IN ENILISH",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [],
+        "english_text": true,
+        "educational_content": true,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 61
+      },
+      "text_length": 61,
+      "educational_score": 1.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/physics_tutorial_0003.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/physics_tutorial_0003.jpg",
+      "ocr_text": "Fz phasics 1 - (zwq E=mc 2 W = 2TT Ilhuuwky T =Zuf Wlkt h p-fhq 51 H 6 Fi, 6 6_ k M1 kT Ra Rz 1 @sC f-Bs < 9- %imsz - S= 1 alz 3 2 Um sin wt u = G 5 3T daw 4 6s WiMz F=2 ri T-3144 stl Fzma ttw",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 192
+      },
+      "text_length": 192,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/yahoo_grammar_lesson_010.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/yahoo_grammar_lesson_010.jpg",
+      "ocr_text": "Parts of Speech Houa LDTERK VERB ADJECTIVE Dafposmn conjurctior Paokoum IntORJECTIDN urnen Iut wunu-englishstudyhere.com",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [],
+        "english_text": true,
+        "educational_content": true,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 120
+      },
+      "text_length": 120,
+      "educational_score": 1.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/yahoo_chemistry_formula_024.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/yahoo_chemistry_formula_024.jpg",
+      "ocr_text": "\"IpAN] chetl Toim U metien Eoau F=e ae 25\" Lu O",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 47
+      },
+      "text_length": 47,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/physics tutorial_001.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/physics tutorial_001.jpg",
+      "ocr_text": "How To Study PHYSICS",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [],
+        "english_text": true,
+        "educational_content": true,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 20
+      },
+      "text_length": 20,
+      "educational_score": 1.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/yahoo_chemistry_formula_031.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/yahoo_chemistry_formula_031.jpg",
+      "ocr_text": "Hc # L0h 2' Cooh H,o H,o Ch; NHz AN- ~H",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 39
+      },
+      "text_length": 39,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/math_equation_0005.png",
+      "original_path": "phase1_foundation/data/raw_english_test/math_equation_0005.png",
+      "ocr_text": "~b+ V b2 4ac X = 2a",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 19
+      },
+      "text_length": 19,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/physics_tutorial_0002.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/physics_tutorial_0002.jpg",
+      "ocr_text": "EnergY hish PE Med PE Med KE High KE Total enegy = PE+ KE Physies",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 65
+      },
+      "text_length": 65,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/bing_grammar_lesson_005.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/bing_grammar_lesson_005.jpg",
+      "ocr_text": "GRAMISAR Activities SAdE",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 24
+      },
+      "text_length": 24,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/bing_grammar_lesson_011.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/bing_grammar_lesson_011.jpg",
+      "ocr_text": "LlGsliUla English InaT nseon ESLe? LcADN PlanS AuyuiVb_ Lamp rtiva: ~nudlinunkinatvdk",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 85
+      },
+      "text_length": 85,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/yahoo_physics_tutorial_023.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/yahoo_physics_tutorial_023.jpg",
+      "ocr_text": "WorkEnergy Power",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 16
+      },
+      "text_length": 16,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/bing_physics_tutorial_005.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/bing_physics_tutorial_005.jpg",
+      "ocr_text": "3icicehei Ci cls T1nt:alt' 4464t > 3ulu FIurt'=",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 47
+      },
+      "text_length": 47,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/history_timeline_0002.png",
+      "original_path": "phase1_foundation/data/raw_english_test/history_timeline_0002.png",
+      "ocr_text": "History Timeline L Slide Template 2015 2016 2017 2018 2019 2020 2021 LOREM IPSUM Lotem ipsum dolor sitamet nibh Magna Maecenas- quam Maena quis, crem nunc Suspendisse vivena sodales Mauris craspnareta LOREM IPSUM Lorm ipum dolor sitamet nibh Magna Maecenaz quam Maznz Quiz Icrem nunc suzcendizze vivem sdales Mamcis crasphareta LOREM IPSUM Lorem ipsum dolor sitamet; nibh Magna Mzecenas quam Maena quis, Icrem nunc Gusdendisse Viven :daies Mauris,craspharetra LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM Loremicum dolorsitamet Lorem ipum dolr sitamet nith Magn3 Maecenaz quam Magna quiz_ Iorem nunc Suspendise Wm zodelez Mauriz craicnaretz Lorem ipium dolr sitamet nith Magna Maecenaz quam Magna quis, Iorem nunc Suspendize Wzm zodales Mauriz craicnaretz Lorem ipsum dolr sitamet nibh Magn3 Maecenaz quam Magna quiz_ Iorem nunc Suspendisse vivem zodalez Mauriz craicnaretz Magna Maecenas- quam Magna quis, Horem nunc susp endisse Viven Fcdene Maunis crasphareta WWW: presentationgo com",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [],
+        "english_text": true,
+        "educational_content": true,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 989
+      },
+      "text_length": 989,
+      "educational_score": 1.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/biology_diagram_0006.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/biology_diagram_0006.jpg",
+      "ocr_text": "Superior Vena Cava Aorta Pulmonary Arlery Pulmonary Vein Atrium Righl Atrium Mitral Valve Pulmonary Valve Aortic Valve Venlricle Right Venlricle Tricuspid Valve Inferior Vena Cava",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 179
+      },
+      "text_length": 179,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/yahoo_history_timeline_021.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/yahoo_history_timeline_021.jpg",
+      "ocr_text": "FnvcFWimpLMHiTE",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 15
+      },
+      "text_length": 15,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/biology_diagram_0007.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/biology_diagram_0007.jpg",
+      "ocr_text": "Epidermal ecll Guard cell Stoma Chloroplast Nucleus Surface View Cross Section",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 78
+      },
+      "text_length": 78,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/history_timeline_0003.png",
+      "original_path": "phase1_foundation/data/raw_english_test/history_timeline_0003.png",
+      "ocr_text": "com ihsophia € Prehistory History Leng  WATWATWT 3 million years to 3000 BC to nowadays 3000 BC Medieval Contemporary Paleolithic Neolithic Acient Age Age Modern Age Age 3 million years 10000 BC 3O00BC 476 AC to 1492 to 1789AC to to 10000 BC to 4Z6AC 1492Ac 1789AC 2011AC First Agriculture human begins species 10000 BC Fall of Invention of 2.5 million Western writing years BC Use 3OO0BC Roman of fire Empire 1 million 476 AC years BC Colombus discovered America 1492 AC French Revolution 1789 AC",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [],
+        "english_text": true,
+        "educational_content": true,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 497
+      },
+      "text_length": 497,
+      "educational_score": 1.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/bing_history_timeline_012.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/bing_history_timeline_012.jpg",
+      "ocr_text": "Event Planning Timeline Ieslolc Westnte YFrn [Adzlure Hi-Jt WzI1 480706 41 dai Waneeett 4E djv; lubinu 44 Jone J _ Dji",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 118
+      },
+      "text_length": 118,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/bing_physics_tutorial_010.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/bing_physics_tutorial_010.jpg",
+      "ocr_text": "LCNCED 'ATF Ernb km Shihhc CiGdchath",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 36
+      },
+      "text_length": 36,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/pixabay_history_timeline_004.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/pixabay_history_timeline_004.jpg",
+      "ocr_text": "Gttkir 3e 7eSse Sa DRrltr Aeeeees S lt Seens 3 LelKrrrSt~atr Se Hnpaats-Citt 398 A Abudapesttt It A LBbb Lawsterdant 1506iIstanbui 4614Ituzla F Nanni",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 149
+      },
+      "text_length": 149,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/bing_algebra_worksheet_003.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/bing_algebra_worksheet_003.jpg",
+      "ocr_text": "KIceAa Onntee cc4np Lavoidns Rir 1k-& lco #t 0 Wotirten? J#J#",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 61
+      },
+      "text_length": 61,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/yahoo_physics_tutorial_034.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/yahoo_physics_tutorial_034.jpg",
+      "ocr_text": "Vector_Tutorial_Sheet Jac 7{0n Ttnt 35 r",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 40
+      },
+      "text_length": 40,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/yahoo_physics_tutorial_020.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/yahoo_physics_tutorial_020.jpg",
+      "ocr_text": "O PHYSICS T U T0 R [ A L",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [],
+        "english_text": true,
+        "educational_content": true,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 24
+      },
+      "text_length": 24,
+      "educational_score": 1.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/bing_physics_tutorial_006.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/bing_physics_tutorial_006.jpg",
+      "ocr_text": "DCplS Cee Fld - Seiaei7",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 23
+      },
+      "text_length": 23,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/history_timeline_0001.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/history_timeline_0001.jpg",
+      "ocr_text": "Timeline of Key [ Events 25 rrod Onworio 37 cuvId n",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 51
+      },
+      "text_length": 51,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/bing_history_timeline_010.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/bing_history_timeline_010.jpg",
+      "ocr_text": "AaEJE 06tt",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 10
+      },
+      "text_length": 10,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/yahoo_history_timeline_022.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/yahoo_history_timeline_022.jpg",
+      "ocr_text": "MAKING SENSE OF HISTORY dHosbsty Uhtough the age5",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [],
+        "english_text": true,
+        "educational_content": true,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 49
+      },
+      "text_length": 49,
+      "educational_score": 1.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/yahoo_biology_diagram_013.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/yahoo_biology_diagram_013.jpg",
+      "ocr_text": "HUMAN CELL ANATOMY",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 18
+      },
+      "text_length": 18,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/bing_history_timeline_011.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/bing_history_timeline_011.jpg",
+      "ocr_text": "History Timeline",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [],
+        "english_text": true,
+        "educational_content": true,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 16
+      },
+      "text_length": 16,
+      "educational_score": 1.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/bing_history_timeline_005.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/bing_history_timeline_005.jpg",
+      "ocr_text": "Timeline listory Template",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 25
+      },
+      "text_length": 25,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/biology_diagram_0004.png",
+      "original_path": "phase1_foundation/data/raw_english_test/biology_diagram_0004.png",
+      "ocr_text": "36 Structure of Heart Left common Left subclavian carotid artery artery Right subclavian artery Left pulmonary artery Aortic arch Pulmonary Superior vena trunk cava Left atrium Right coronary artery Circumflex artery Right atrium Anterior inter- ventricular artery Marginal artery Right ventricle Left ventricle Cardiac muscle Inferior vena cava Descending aorta Apex ofheart",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 375
+      },
+      "text_length": 375,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/history_timeline_0000.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/history_timeline_0000.jpg",
+      "ocr_text": "Timeline of World History USEFULCHARTS Iron smelting Hanno : solon $ Babylonian inccpendently {Gom s Desiaucton 0l the Empire Gaumama ce coclo Navigator Ist Jowsh Temple Cyrus the Budcha Ngcria cxoloros Grcat 1 WAlrica Wars Pences sophocles. a4n31 La Tcnc 2 8 atopocracootus. J Greeks Culiure Pclopon nacan War J L Meriotic Hamilcar Aristotlc 1 Fallto Racz Ncxancr Nanda celcion = Scndi Cocmlcc Empire of Kings dtrciocCC EMPIRE DIVIDED BY THE DIADOCHI the Creat sisters\" J Iberia Alexander ans.sqwash naic Germanic Ashoka Soamcnca Construction = Inols H Iho Cren Dimaneds Meroe Cviltication 1 HECOGeNcSu 1 morcto cronnibsal Syrian Continucd its pcak ans Ji Anliochus aridilication south Nps L Maccabean Revolt Ine Great Ncath trom Emergence of 4 Alrica Sxoreta Greck-Buxamst setlerenes 1 Scwnd Carthage destroyed L made Iusion Gactrro Syungay further south Hasmoncan Mithridates | Kingdom SILK Suta RoA D L Jutius Caesar conquers Gaul Pompey Cleopatra 1 0roni 1 ] \"ktectroglyphs Psotooy Octavian gustos Csesar ther Great CCRY < JESUS Katarcin Kush becomc ; clicn: sta;c @csirction Ihc Znd Jowish Tcmplc Cer L L wainst I SZEF1 Artoninis atensive Marcus Aurotus Roma Ide netora oughout cn ACnca Cris $ of ine Third Century Chnstaniy introduced Einiopia Constantine Goldcn 99 Ingia othe Gcrmanic HFnei 67 Chcictienity Aahau 1",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [],
+        "english_text": true,
+        "educational_content": true,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 1322
+      },
+      "text_length": 1322,
+      "educational_score": 1.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/bing_physics_tutorial_007.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/bing_physics_tutorial_007.jpg",
+      "ocr_text": "LatSMB % & Ublr maune occun Basic Tutorial Itt eeelmzIha Joeng omeuam Fong",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 74
+      },
+      "text_length": 74,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/bing_algebra_worksheet_002.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/bing_algebra_worksheet_002.jpg",
+      "ocr_text": "Expressioris wilh Variobles",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 27
+      },
+      "text_length": 27,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/yahoo_physics_tutorial_025.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/yahoo_physics_tutorial_025.jpg",
+      "ocr_text": "C Jct V\"JJ Wfo V = M0ar 85 64 8d{Jbe",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 36
+      },
+      "text_length": 36,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/history_timeline_0004.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/history_timeline_0004.jpg",
+      "ocr_text": "John McCarthy 1927-2011 Word Pro \"Dec-2 deepseek 19 Enc-1 Qut \" Be there m 30 ma OEEP BLUE |Pos Enc _ OpenAI ~Embedding Ecodowg_ Embeddtin LWord IDs 1900 1956 1980 WABOT-2 1982 Hopfield ANN 1986 Parallel Processing 1989 Convolutional NN_ 1997 Deep Blue 2003-2005 2017 2017 WaveNet 2019 GPT-1 2020 BERT LM 2020 GPT-3 2022 ChatGPT 2025 deepseek TriodeVaccum Tube Al term born DARPA Challenges Transformers 2006 Deep Belief ANN Attention 2008 Is All IBM Blue Brain You Need 2010 Apple Siri 1920 \"OpenAI ChatGPT became the fastest growing consumer software application in history just after 2 monthsl\" The chinesse deepseek overpasses OpenAI in 2 weeksl First ever robot 1938 Digital Logic 1948 Cybernetics \"A paper called the Dartmouth Proposal is presented in which, for the first time, the AI definition is used\" \"IBM's Deep Blue defeats chess world champion Garry Kasparov\" Ist Winter 2nd Winter 1900 1950 1950 1973 1980 1987 1993 20001 2000 2012 2012 2017 2017 2020 2020 2025 2025 1950 1957 1986 Back 1994 Robocup 1997 LSTM ANN 1999 Sony AIBO 2000 Kismet Robot 2012 AlexNet 2013 DeepMind 2014 Generative AN 2015 Tensorflow 2016 Alpha Go 2020 DALL-E 2020 +2025 Tesla Self drive AGI 2021 ASI RRegulation & Ethics] Singularity 2024 SuperHumans Sora LVM 2024 Beyond EU Al Act Turing Test First Perceptron 1957 First Al program 1965 First Ind. Robot 1965 Eliza ChatBotl propagation \"Multi-layer networks could learn non-linear mappings, significantly contributing to the field's progress' \"generating images from descriptions; showcases the power of Al in Cross-modal tasks and creative content generation' \"A computer would deserve to be called intelligent if it could deceive a human into belivign it was human A Revolutionary Deep Learning Architecture significantly outperforms ImageNet\" vv+-wtvy +(Sw+2vz ~3w+v=0 Alan Turing, PhD 1912-1954 22274 Frank Rosenbaltt 1928 - 1971 lLim y'=(lww)\" (sin x)' dx= lirg { f(x)dx Lo t9(T ( 2- X2+bz 4-1-& Al Ml Alphago Lee Sedol #OnMy",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [],
+        "english_text": true,
+        "educational_content": true,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 1972
+      },
+      "text_length": 1972,
+      "educational_score": 1.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/yahoo_chemistry_formula_044.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/yahoo_chemistry_formula_044.jpg",
+      "ocr_text": "Abbreviations the text; chemica: coxpowa ckeuticn peirinr CPrc Tormxnt Cliemica reticliux CWtic f nrnirifion CCsil chiewica: sulbuauce Jocnon cowvot (Hlux Vncn Imeice iworgawic clemistry' Oremc ciriasiei CuncV bona",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 214
+      },
+      "text_length": 214,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/biology_diagram_0001.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/biology_diagram_0001.jpg",
+      "ocr_text": "Right  Lidec} Left kidncy Renal artcrics Rennlerint Wrler Urinary bladdcr Urtthn Drawitneat",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 91
+      },
+      "text_length": 91,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/history_timeline_0005.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/history_timeline_0005.jpg",
+      "ocr_text": "Timeline of Key Events Loctad Maeo Te Ie Iu II J5i*1* 1m Tuneline of Key Events Liardectn acn ink saving Eco",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 108
+      },
+      "text_length": 108,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/pixabay_math_equation_001.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/pixabay_math_equation_001.jpg",
+      "ocr_text": "Lutay  Valta Luse Inta ution False Rod uSe J Falst False Dod.usr [ FIrt Hmat UA end ~f back\" Uie Relccte select-1 Scana objects active Daile lected\" str (codifier_to)) Peterna",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 175
+      },
+      "text_length": 175,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/pixabay_history_timeline_002.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/pixabay_history_timeline_002.jpg",
+      "ocr_text": "V VIII XI  M",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 12
+      },
+      "text_length": 12,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/bing_algebra_worksheet_007.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/bing_algebra_worksheet_007.jpg",
+      "ocr_text": "Solvinn LIncnr Equnbcru",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 23
+      },
+      "text_length": 23,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/yahoo_algebra_worksheet_022.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/yahoo_algebra_worksheet_022.jpg",
+      "ocr_text": "Algebra oe Fcer D",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 17
+      },
+      "text_length": 17,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/bing_algebra_worksheet_005.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/bing_algebra_worksheet_005.jpg",
+      "ocr_text": "Ccnnea Algebra Worksheets",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 25
+      },
+      "text_length": 25,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/yahoo_physics_tutorial_032.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/yahoo_physics_tutorial_032.jpg",
+      "ocr_text": "Newtons 1\" Law- Inclined plane . crtion Case Nothin? movine State 0i fest Line UDinetorce m9sit Wnoleeecsconnmndlnnnetat Eutencnrannenuinnt Anem tono ~MC qqtlentam",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 163
+      },
+      "text_length": 163,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/history_timeline_0007.png",
+      "original_path": "phase1_foundation/data/raw_english_test/history_timeline_0007.png",
+      "ocr_text": "3300 3200 3100 3000 2900 2800 2700 2600 2500 2400 2300 2200 2100 2000 1900 1800 1700 1600 1500 1400 1300 1200 Early Bronze Age Egyptian hieroglyphs used Early Dynasic period Egypt Early witing Egyptian First Dynasty Fredynastic China Aegean civilizatimn Indus Civilization Great Pyramid Giza Akkadian Empire Xia Dynasty Mddle Bronze Age Hammurdbi Late Bronze Age Sack of Babykn Hittite Empire Bronze Age collapse Ancient Pueblo Peoples irms 1000 900 ~8C0 \"700 600 500 400 300 200 -100 Neo-AsSyrian Empire Archaic Greece Roman Kingdom fcrs Achaemenid Emnpire Classical period Hellenism Maurya Empire Roman Empire IC0 300 40 500 E00 Late Antiquity Gupta Empire Early Mitde Ages Coming of Islam",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 691
+      },
+      "text_length": 691,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/biology_diagram_0003.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/biology_diagram_0003.jpg",
+      "ocr_text": "anther stigma stamen filament style pistil ovary petal embryo sac ovule receptacle sepal pedicel",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 96
+      },
+      "text_length": 96,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/yahoo_biology_diagram_015.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/yahoo_biology_diagram_015.jpg",
+      "ocr_text": "Gumacy *l0v Gocelo",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 18
+      },
+      "text_length": 18,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/yahoo_math_equation_047.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/yahoo_math_equation_047.jpg",
+      "ocr_text": "Ja' =Jal= {a,u20 25, +02 ~0,0<0 (a-b)(a*ab b )-a-b (r = Zor-w) Sintr =2oin Zo % (X)enx\" ozen- m 4E ArcSin(x) FRl 2lu \"2 Y-*2 Ltoc + NMa _ Fnt E2a ctgp rb Minnein",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 161
+      },
+      "text_length": 161,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/yahoo_math_equation_053.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/yahoo_math_equation_053.jpg",
+      "ocr_text": "0.020 u=Ri+2u d+02' dL _ I-a,0 < 0 (a-bJ(a ab-b)za-b' Ja Ek >) Eor-w) (Xx)-nx\" \"{Ep Anc Sintx) \"eRi \"E Y=XQ +01a8 sinia + Di ~hD S=rn sinusin ;",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 143
+      },
+      "text_length": 143,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/yahoo_math_equation_046.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/yahoo_math_equation_046.jpg",
+      "ocr_text": "1*tn9*v4d50 4+2-6114001+4) '83r 1,tg_*X*9 23t5/+4y 4, 92 Jed 4*0 {r(#Datino ~C#l SMarca Vawh Vs Ya: = tusr-tert<o,4'Mtez VaRL Jo  # T-6* 6er-% (wt-llzi' CGt-R7 fi% dtb =(#6m HT _r' Atotuk slty 'Zxsinazeosa Dis caslaAA)seba ubM141b Vsbzk 2",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 238
+      },
+      "text_length": 238,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/biology_diagram_0002.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/biology_diagram_0002.jpg",
+      "ocr_text": "Pinocytotic vesicle Lysosome Mitochondrion Golgi vesicles Golgi apparatus Bound ribosome Rough ER (endoplasmic reticulum) Nucleolus Nucleus Smooth ER (no ribosomes) Centrioles(2 Cytosol (filuid portion of cytoplasm) H Microtubules Cell (plasma membrane) Cytoplasm Free ribosome",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 277
+      },
+      "text_length": 277,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/history_timeline_0006.png",
+      "original_path": "phase1_foundation/data/raw_english_test/history_timeline_0006.png",
+      "ocr_text": "'ComeOn Boyst Cl C2 Ucaar Aeet hbrcttirGrrd Ludwig van Beethoven 1770-1827 D. German composer World War and child nrodiov whose houte of 141+-14i6 Al Maf in which tempel Eradual deancst not hir det desire compose. Amon 6M) surviving work + 14!+ h | MAKING SENSE OF HISTORY breese orse 1701-1672..D. mencan mntentor \" FJ% Br afd artist #hose\" Fortrait -ubject- Inchttet patented uelelecorieered thsuqh; the telegraph, Jnd Anow n tor his dfusteuk age6 invention Vorse (de'. [is first telegraph mes-Jge #Jh \"What Tate [itF* 4 hath God #rought; sent on lighting; reativat} and # (1 the' Aobe A\" | LN i#tun ()f ('FraIr ! Vzt 24,1544. Such 14 OTk ` include Water Frie for [\"hy\"sic h 1421 lne( 1iliv ` and Rotu TI ( tthidratl. contributions in photoele= HOMESCHOOL IN THE WooDs Law and theoretical phvsi HALF-A-HUNDRED ACRE WoOD 1800 AD 1850 AD 1875 AD 1900 AD 1925 AD 950AD VS_ The Scopes Trial July; 1925 A.D. Also dubbed \"The Monkey rial: John Thomas Scopes violated state law by teaching Darwin's theory of evolution in his Tennessee classroom. The highly ublicized trial between Clarence Darrow and prosecutor William Jennings Bryan resulted with a guilty verdict that was later reversed. he repercussions of the trial eventually led to teaching of evolution in the public schools while Biblical Creation was banned. Korean War 1950-1953 A.D. war between North Korea/China and South KorealUnited States/United Nations forces: Long-time rivalry between the two regions of Korea had made unification efforts difficult: North Korea's surprise attack in 1950 was followed by three years of boundary- pushing It ended in truce near the original boundary line: Battle of Waterloo June 18, 1815 A,D. The final conflict which the British, Belgian, German, and Dutch forces under Wellington'$ command and Marshal Blucher s Prussian army defeated Napoleon bringing about his second and final abdication. Antonin Dvorak 1841-1904 AD. Czech composer who WaS director of the National Conservatory in New York during thetime that he composed his popular ninth symphony; From the New World: The influence of Czech folk music on his work is evident in his Slavonic Dances. Johannes Brahms 1833-1897 A.D German composer whose many romantic and classic Marie Curie 1867-1934 ADOriginallv Mania",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [],
+        "english_text": true,
+        "educational_content": true,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 2273
+      },
+      "text_length": 2273,
+      "educational_score": 1.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/flickr_math equation_000.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/flickr_math equation_000.jpg",
+      "ocr_text": "ik FG d2 I-V/R FG &7 'TVEPV_Pv T-ZrVEPV PVT 1 € z e-mcz at 2MvzmV d iat?Mv-mV JUg-mgy V=Ip AUg ergy V-T m ezmc2 @f/m ezmc2 Ip F-GMn I-Vlk F-G\"",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 142
+      },
+      "text_length": 142,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/pixabay_math_equation_002.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/pixabay_math_equation_002.jpg",
+      "ocr_text": "He ELu #Mc",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [
+          "No educational keywords detected"
+        ],
+        "english_text": true,
+        "educational_content": false,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 10
+      },
+      "text_length": 10,
+      "educational_score": 0.0
+    },
+    {
+      "image_path": "phase1_foundation/data/high_quality_english/pixabay_physics_tutorial_003.jpg",
+      "original_path": "phase1_foundation/data/raw_english_test/pixabay_physics_tutorial_003.jpg",
+      "ocr_text": "PhYSIK MATHE ENGLIsCH CHEMIE NAchhILFE DEUTSCH Bl OLoGiE",
+      "quality_assessment": {
+        "is_quality": true,
+        "reasons": [],
+        "english_text": true,
+        "educational_content": true,
+        "has_watermark": false,
+        "watermark_source": "",
+        "text_length": 56
+      },
+      "text_length": 56,
+      "educational_score": 1.0
+    }
+  ],
+  "statistics": {
+    "total_processed": 437,
+    "ocr_successful": 428,
+    "english_text": 230,
+    "educational_content": 63,
+    "watermark_rejected": 86,
+    "final_accepted": 126
+  },
+  "processing_summary": {
+    "total_images_processed": 437,
+    "images_with_text": 428,
+    "english_text_images": 230,
+    "educational_content_images": 63,
+    "watermarked_rejected": 86,
+    "final_high_quality_images": 126,
+    "quality_rate": "28.8%"
+  }
+}

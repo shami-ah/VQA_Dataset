@@ -1,11 +1,15 @@
 import os
 import argparse
 import requests
+import warnings
 from bs4 import BeautifulSoup
 from tqdm import tqdm
 from urllib.parse import quote
 from PIL import Image
 from io import BytesIO
+
+# Suppress PIL transparency warning
+warnings.filterwarnings("ignore", "Palette images with Transparency expressed in bytes should be converted to RGBA images")
 
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 

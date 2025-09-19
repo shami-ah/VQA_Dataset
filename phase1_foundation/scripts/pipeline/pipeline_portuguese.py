@@ -4,13 +4,13 @@ import subprocess
 def run_scraper(source, keywords_file, save_dir, images_per_keyword):
     print(f"🚀 Running scraper for {source}...")
     script_map = {
-        "google": "scripts/scrapers/image_scraper_google_cli.py",
-        "bing": "scripts/scrapers/image_scraper_bing_cli.py",
-        "pexels": "scripts/scrapers/image_scraper_pexels_jp.py",
-        "pinterest": "scripts/scrapers/image_scraper_pinterest_cli.py",
-        "yahoo_japan": "scripts/scrapers/image_scraper_yahoo_japan_selenium.py",
-        "blogs_por": "scripts/scrapers/image_scraper_blogs_por.py",
-        "gov_por": "scripts/scrapers/image_scraper_gov_por.py"
+        "google": "phase1_foundation/scripts/scrapers/image_scraper_google_cli.py",
+        "bing": "phase1_foundation/scripts/scrapers/image_scraper_bing_cli.py",
+        "pexels": "phase1_foundation/scripts/scrapers/image_scraper_pexels_jp.py",
+        "pinterest": "phase1_foundation/scripts/scrapers/image_scraper_pinterest_cli.py",
+        "yahoo_japan": "phase1_foundation/scripts/scrapers/image_scraper_yahoo_japan_selenium.py",
+        "blogs_por": "phase1_foundation/scripts/scrapers/image_scraper_blogs_por.py",
+        "gov_por": "phase1_foundation/scripts/scrapers/image_scraper_gov_por.py"
     }
 
     if source not in script_map:
@@ -27,7 +27,7 @@ def run_scraper(source, keywords_file, save_dir, images_per_keyword):
 def run_ocr(input_dir, output_dir):
     print("🔍 Running OCR filtering for Portuguese...")
     subprocess.run([
-        "python3", "scripts/ocr/filter_images_portuguese_ocr.py",
+        "python3", "phase1_foundation/scripts/ocr/filter_images_portuguese_ocr.py",
         "--input_dir", input_dir,
         "--output_dir", output_dir
     ])
@@ -35,7 +35,7 @@ def run_ocr(input_dir, output_dir):
 def run_zip(processed_dir, output_zip):
     print("📦 Zipping processed dataset...")
     subprocess.run([
-        "python3", "scripts/utils/zip.py",
+        "python3", "phase1_foundation/scripts/utils/zip.py",
         "--processed_dir", processed_dir,
         "--output_zip", output_zip
     ])
