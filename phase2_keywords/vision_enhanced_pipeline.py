@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-Phase 2 Optimized Pipeline - Clean AI-Driven Architecture
-Pure OCR-first approach with AI-driven content analysis
-No templates, no subject pre-classification - Production Ready
+Vision-Enhanced Pipeline - True AI-Driven Image Understanding
+Uses vision models (CLIP/BLIP) for actual image content analysis
+No educational assumptions, content-adaptive, 100+ character descriptions
 """
 
 import os
@@ -19,14 +19,20 @@ from pathlib import Path
 import concurrent.futures
 from threading import Lock
 
-# Import AI-driven components
-from automated_captioning.ai_driven_vqa_generator import AIDriverVQAGenerator
-from automated_captioning.ai_driven_caption_generator import AIDriverCaptionGenerator
+# Add script directory to Python path for imports
+script_dir = os.path.dirname(os.path.abspath(__file__))
+if script_dir not in sys.path:
+    sys.path.insert(0, script_dir)
+
+# Import vision-driven components
+from automated_captioning.vision_driven_vqa_generator import VisionDrivenVQAGenerator
+from automated_captioning.vision_driven_caption_generator import VisionDrivenCaptionGenerator
+from automated_captioning.image_quality_filter import ImageQualityFilter
 from automated_captioning.lightweight_vqa_validator import LightweightVQAValidator
 
-class Phase2OptimizedPipeline:
+class VisionEnhancedPipeline:
     def __init__(self, language: str = "english", device: str = "cpu", max_workers: int = 2):
-        """Initialize optimized AI-driven pipeline"""
+        """Initialize vision-enhanced AI-driven pipeline"""
         self.language = language
         self.device = device
         self.max_workers = max_workers
@@ -38,18 +44,21 @@ class Phase2OptimizedPipeline:
         self.ocr_lock = Lock()
         self.model_lock = Lock()
         
-        # Initialize AI-driven components lazily
+        # Initialize vision-driven components lazily
         self._ocr_processor = None
-        self._ai_caption_generator = None
-        self._ai_vqa_generator = None
+        self._vision_caption_generator = None
+        self._vision_vqa_generator = None
+        self._quality_filter = None
         self._deduplicator = None
         self._lightweight_validator = None
         
-        self.logger.info(f"✅ Phase 2 Optimized Pipeline initialized for {language}")
+        self.logger.info(f"🔮 Vision-Enhanced Pipeline initialized for {language}")
+        self.logger.info(f"   Device: {device}")
+        self.logger.info(f"   Max workers: {max_workers}")
         
     def _setup_logger(self):
         """Setup logging"""
-        logger = logging.getLogger('Phase2OptimizedPipeline')
+        logger = logging.getLogger('VisionEnhancedPipeline')
         logger.setLevel(logging.INFO)
         if not logger.handlers:
             handler = logging.StreamHandler()
@@ -85,19 +94,26 @@ class Phase2OptimizedPipeline:
                     
         return self._ocr_processor
 
-    def _get_caption_generator(self):
-        """AI-driven caption generator"""
-        if self._ai_caption_generator is None:
-            self._ai_caption_generator = AIDriverCaptionGenerator(self.language)
-            self.logger.info("✅ AI-Driven Caption Generator loaded")
-        return self._ai_caption_generator
+    def _get_vision_caption_generator(self):
+        """Vision-driven caption generator with 100+ character requirement"""
+        if self._vision_caption_generator is None:
+            self._vision_caption_generator = VisionDrivenCaptionGenerator(self.language, self.device)
+            self.logger.info("✅ Vision-Driven Caption Generator loaded")
+        return self._vision_caption_generator
 
-    def _get_vqa_generator(self):
-        """AI-driven VQA generator"""
-        if self._ai_vqa_generator is None:
-            self._ai_vqa_generator = AIDriverVQAGenerator(self.language)
-            self.logger.info("✅ AI-Driven VQA Generator loaded")
-        return self._ai_vqa_generator
+    def _get_vision_vqa_generator(self):
+        """Vision-driven VQA generator with adaptive content analysis"""
+        if self._vision_vqa_generator is None:
+            self._vision_vqa_generator = VisionDrivenVQAGenerator(self.language, self.device)
+            self.logger.info("✅ Vision-Driven VQA Generator loaded")
+        return self._vision_vqa_generator
+    
+    def _get_quality_filter(self):
+        """Image quality filter for dataset suitability"""
+        if self._quality_filter is None:
+            self._quality_filter = ImageQualityFilter(min_resolution=100000, min_quality_score=60.0)
+            self.logger.info("✅ Image Quality Filter loaded")
+        return self._quality_filter
     
     def _get_deduplicator(self):
         """Lazy initialization of deduplicator"""
@@ -105,19 +121,18 @@ class Phase2OptimizedPipeline:
             try:
                 from deduplication.integrated_deduplication import IntegratedDeduplicationPipeline
                 self._deduplicator = IntegratedDeduplicationPipeline(
-                    perceptual_threshold=8,  # More lenient for speed
-                    clip_similarity_threshold=0.95,  # Higher threshold
-                    use_both_methods=False,  # Use only hash for speed
+                    perceptual_threshold=8,
+                    clip_similarity_threshold=0.95,
+                    use_both_methods=False,
                     prioritize_method="hash"
                 )
                 self.logger.info("✅ Deduplicator loaded")
             except Exception as e:
                 self.logger.warning(f"Deduplicator failed to load: {e}")
                 
-                # Fallback deduplicator
                 class FallbackDedup:
                     def deduplicate_images(self, image_paths):
-                        return image_paths  # No deduplication
+                        return image_paths
                         
                 self._deduplicator = FallbackDedup()
         return self._deduplicator
@@ -126,84 +141,33 @@ class Phase2OptimizedPipeline:
         """Lazy initialization of lightweight VQA validator"""
         if self._lightweight_validator is None:
             try:
-                self._lightweight_validator = LightweightVQAValidator(enable_model=False)  # Start with rule-based only for speed
-                self.logger.info("✅ Lightweight VQA Validator initialized (rule-based mode)")
+                self._lightweight_validator = LightweightVQAValidator(enable_model=False)
+                self.logger.info("✅ Lightweight VQA Validator initialized")
             except Exception as e:
                 self.logger.warning(f"Lightweight validator failed to load: {e}")
-                # Fallback - no validation
+                
                 class NoValidation:
                     def validate_and_improve_vqa_pairs(self, pairs):
                         return pairs
                     def validate_dataset_quality(self, pairs):
                         return {"quality_score": 85.0, "total_pairs": len(pairs)}
+                        
                 self._lightweight_validator = NoValidation()
         return self._lightweight_validator
     
-    def _clean_ocr_text(self, ocr_text: str) -> str:
-        """Clean and improve OCR text quality with comprehensive corrections"""
-        if not ocr_text or len(ocr_text.strip()) == 0:
-            return ocr_text
-        
-        text = ocr_text.strip()
-        
-        # Comprehensive OCR error corrections
-        corrections = {
-            # Chemistry specific
-            'Chemicol': 'Chemical', 'Eormulo': 'Formula', 'EoRNULAS': 'FORMULAS',
-            'ond': 'and', 'Woler': 'Water', 'Crloride': 'Chloride', 'Sadium': 'Sodium',
-            'Mognesium': 'Magnesium', 'Caukon': 'Carbon', 'Cskon': 'Carbon',
-            'Sulphuse': 'Sulfur', 'aride': 'oxide', 'axide': 'oxide', 'chlosude': 'chloride',
-            'Gulphal': 'Sulfate', 'SuLphati': 'Sulfate', 'Laad': 'Lead', 'Coppex': 'Copper',
-            'Di aride': 'Dioxide',
-            
-            # Physics specific  
-            'Physies': 'Physics', 'EnergY': 'Energy', 'Mled': 'Med', 'hish': 'high',
-            'suborialspoint': 'tutorialspoint', 'LEARNII': 'LEARNING',
-            
-            # Biology specific
-            'Huimanbrain': 'Human brain', 'Literatview': 'Lateral view', 'Fain on': 'Brain on',
-            'StiuctureofHedrti': 'Structure of Heart', 'SOEtaatevan': 'Location',
-            'GesiconBy': 'Design By',
-            
-            # History specific
-            'CTMTimelineof': 'CTM Timeline of', 'eteaag': 'History', 'Brreyeeep': 'Timeline',
-            'otinlaiay': 'Official', 'VaiaeesGecelel': 'Various Historical',
-            
-            # Grammar/Language specific
-            'faesOmECTPRONOUNSFEZEY': 'OBJECT PRONOUNS THEY',
-            'ChartofGrammarTensex': 'Chart of Grammar Tenses',
-            
-            # General OCR artifacts
-            'ae': 'the', 'teh': 'the', 'adn': 'and', 'fo': 'of', 'hee': 'the',
-            
-            # Remove garbled sequences entirely
-            'paeeelSSieegetS': '', 'pttheelSSieegetS': '', 'SmieegeGE': 'Subject GE',
-            'ofKeSeS': 'of Keys', 'Benes': 'Basics', 'satimmatppep': '',
-            'La edpeaes eae Cea ees ae': '', 'pe cae a Re Looe Sareea MalfereAH': '',
-            'ue we SNi i ae ey foherere na': '', 'a ate ae li': '',
-        }
-        
-        # Apply corrections
-        for wrong, correct in corrections.items():
-            text = text.replace(wrong, correct)
-        
-        # Clean up spacing
-        text = ' '.join(text.split())  # Normalize whitespace
-        
-        return text
-    
-    def run_fast_pipeline(self, 
-                         input_images: List[str],
-                         output_dir: str,
-                         skip_ocr: bool = False,
-                         skip_deduplication: bool = False) -> Dict:
+    def run_vision_enhanced_pipeline(self, 
+                                   input_images: List[str],
+                                   output_dir: str,
+                                   skip_ocr: bool = False,
+                                   skip_deduplication: bool = False,
+                                   skip_quality_filter: bool = False) -> Dict:
         """
-        Run fast AI-driven pipeline with clean architecture
+        Run vision-enhanced pipeline with true AI understanding
         """
         start_time = time.time()
         
         try:
-            self.logger.info(f"🚀 Starting AI-Driven Fast Pipeline with {len(input_images)} images")
+            self.logger.info(f"🔮 Starting Vision-Enhanced Pipeline with {len(input_images)} images")
             
             # Create output directories
             os.makedirs(output_dir, exist_ok=True)
@@ -216,52 +180,63 @@ class Phase2OptimizedPipeline:
                 'final_jsonl_path': None
             }
             
-            # Step 1: OCR Processing
-            self.logger.info("📖 STEP 1: OCR TEXT EXTRACTION")
+            # Step 1: Image Quality Filtering (NEW)
+            if skip_quality_filter:
+                self.logger.info("⏭️ Skipping image quality filtering")
+                quality_filtered_images = input_images
+            else:
+                self.logger.info("🔍 STEP 1: IMAGE QUALITY FILTERING")
+                quality_filtered_images = self._filter_image_quality(input_images)
+            
+            result['processing_summary']['step1_quality_filtered'] = len(quality_filtered_images)
+            self.logger.info(f"✅ Step 1: {len(quality_filtered_images)} high-quality images")
+
+            # Step 2: OCR Processing
+            self.logger.info("📖 STEP 2: OCR TEXT EXTRACTION")
             if skip_ocr:
                 self.logger.info("⏭️ Skipping OCR processing")
-                ocr_results = [{'image_path': img, 'ocr_text': '', 'ocr_success': False} for img in input_images]
+                ocr_results = [{'image_path': img, 'ocr_text': '', 'ocr_success': False} for img in quality_filtered_images]
             else:
-                ocr_results = self._process_ocr_extraction(input_images)
+                ocr_results = self._process_ocr_extraction(quality_filtered_images)
             
-            result['processing_summary']['step1_ocr_processed'] = len(ocr_results)
-            self.logger.info(f"✅ Step 1: {len(ocr_results)} images processed")
+            result['processing_summary']['step2_ocr_processed'] = len(ocr_results)
+            self.logger.info(f"✅ Step 2: {len(ocr_results)} images processed")
 
-            # Step 2: Deduplication (optional)
+            # Step 3: Deduplication (optional)
             if skip_deduplication:
                 self.logger.info("⏭️ Skipping deduplication")
                 unique_ocr_results = ocr_results
             else:
-                self.logger.info("🔍 STEP 2: IMAGE DEDUPLICATION")
+                self.logger.info("🔍 STEP 3: IMAGE DEDUPLICATION")
                 unique_ocr_results = self._fast_deduplication(ocr_results)
             
-            result['processing_summary']['step2_unique_images'] = len(unique_ocr_results)
-            self.logger.info(f"✅ Step 2: {len(unique_ocr_results)} unique images")
+            result['processing_summary']['step3_unique_images'] = len(unique_ocr_results)
+            self.logger.info(f"✅ Step 3: {len(unique_ocr_results)} unique images")
 
-            # Step 3: AI-Driven VQA Generation  
-            self.logger.info("🤖 STEP 3: AI-DRIVEN VQA GENERATION (exactly 5 pairs)")
-            final_vqa_data = self._ai_driven_vqa_generation(unique_ocr_results, final_images_dir)
+            # Step 4: Vision-Enhanced VQA Generation (ENHANCED)
+            self.logger.info("🔮 STEP 4: VISION-ENHANCED VQA GENERATION")
+            final_vqa_data = self._vision_enhanced_vqa_generation(unique_ocr_results, final_images_dir)
             
-            result['processing_summary']['step3_vqa_generated'] = len(final_vqa_data)
+            result['processing_summary']['step4_vqa_generated'] = len(final_vqa_data)
             result['processing_summary']['total_vqa_pairs'] = sum(len(item['vqa_pairs']) for item in final_vqa_data)
-            self.logger.info(f"✅ Step 3: {len(final_vqa_data)} images with VQA pairs")
+            self.logger.info(f"✅ Step 4: {len(final_vqa_data)} images with vision-enhanced VQA pairs")
             
-            # Step 4: Lightweight VQA Validation & Improvement
-            self.logger.info("🔍 STEP 4: LIGHTWEIGHT VQA VALIDATION & IMPROVEMENT")
+            # Step 5: Lightweight VQA Validation & Improvement
+            self.logger.info("🔍 STEP 5: VQA VALIDATION & IMPROVEMENT")
             final_vqa_data = self._validate_and_improve_vqa_data(final_vqa_data)
             
-            result['processing_summary']['step4_vqa_validated'] = len(final_vqa_data)
+            result['processing_summary']['step5_vqa_validated'] = len(final_vqa_data)
             result['processing_summary']['total_improved_pairs'] = sum(len(item['vqa_pairs']) for item in final_vqa_data)
-            self.logger.info(f"✅ Step 4: {len(final_vqa_data)} images with validated VQA pairs")
+            self.logger.info(f"✅ Step 5: {len(final_vqa_data)} images with validated VQA pairs")
             
-            # Step 5: Save Final JSONL
-            self.logger.info("💾 STEP 5: SAVING FINAL JSONL")
+            # Step 6: Save Final JSONL
+            self.logger.info("💾 STEP 6: SAVING FINAL JSONL")
             final_jsonl_path = self._save_final_jsonl(final_vqa_data, output_dir)
             
             result['final_jsonl_path'] = final_jsonl_path
             result['success'] = True
             
-            self.logger.info(f"✅ Step 5: JSONL saved")
+            self.logger.info(f"✅ Step 6: JSONL saved")
             
             end_time = time.time()
             total_time = round(end_time - start_time, 2)
@@ -269,17 +244,28 @@ class Phase2OptimizedPipeline:
             result['total_time'] = total_time
             result['images_per_second'] = round(len(input_images) / total_time, 2) if total_time > 0 else 0
             
-            self.logger.info(f"🎯 Pipeline completed in {total_time}s ({result['images_per_second']} img/s)")
+            self.logger.info(f"🎯 Vision-Enhanced Pipeline completed in {total_time}s ({result['images_per_second']} img/s)")
             
             return result
             
         except Exception as e:
-            self.logger.error(f"Pipeline failed: {e}")
+            self.logger.error(f"Vision-Enhanced Pipeline failed: {e}")
             return {
                 'success': False,
                 'error': str(e),
                 'total_time': round(time.time() - start_time, 2)
             }
+    
+    def _filter_image_quality(self, image_paths: List[str]) -> List[str]:
+        """Filter images based on quality metrics"""
+        quality_filter = self._get_quality_filter()
+        
+        filter_results = quality_filter.filter_image_list(image_paths)
+        
+        self.logger.info(f"Quality filtering: {len(image_paths)} -> {len(filter_results['suitable_images'])} images")
+        self.logger.info(f"Quality stats: {filter_results['quality_stats']}")
+        
+        return filter_results['suitable_images']
 
     def _process_ocr_extraction(self, image_paths: List[str]) -> List[Dict]:
         """Process OCR extraction in parallel"""
@@ -288,11 +274,9 @@ class Phase2OptimizedPipeline:
         
         def process_single_image(image_path):
             try:
-                # Process OCR with thread lock
                 with self.ocr_lock:
                     ocr_result = ocr_processor.extract_text(image_path)
                 
-                # Extract text from RealOCRProcessor result format
                 if isinstance(ocr_result, dict):
                     ocr_text = ocr_result.get('text', '') or ''
                     success = ocr_result.get('success', False)
@@ -300,9 +284,6 @@ class Phase2OptimizedPipeline:
                     ocr_text = str(ocr_result)
                     success = True
                     
-                # Clean OCR text for better quality
-                ocr_text = self._clean_ocr_text(ocr_text)
-                
                 self.logger.debug(f"OCR extracted: '{ocr_text[:50]}...' from {os.path.basename(image_path)}")
             
                 return {
@@ -340,7 +321,6 @@ class Phase2OptimizedPipeline:
         try:
             image_paths = [result['image_path'] for result in ocr_results]
             
-            # Call deduplication
             dedup_result = deduplicator.deduplicate_images(image_paths)
             
             # Handle different return types from deduplicator
@@ -352,7 +332,7 @@ class Phase2OptimizedPipeline:
                 unique_paths = dedup_result
             else:
                 self.logger.warning(f"Unexpected deduplication result format: {type(dedup_result)}")
-                unique_paths = image_paths  # Use all images as fallback
+                unique_paths = image_paths
             
             # Filter to keep only unique results
             unique_results = []
@@ -367,14 +347,14 @@ class Phase2OptimizedPipeline:
             self.logger.warning(f"Deduplication failed: {e}")
             return ocr_results
 
-    def _ai_driven_vqa_generation(self, unique_ocr_results: List[Dict], final_images_dir: str) -> List[Dict]:
-        """Generate VQA pairs using AI-driven approach"""
-        caption_generator = self._get_caption_generator()
-        vqa_generator = self._get_vqa_generator()
+    def _vision_enhanced_vqa_generation(self, unique_ocr_results: List[Dict], final_images_dir: str) -> List[Dict]:
+        """Generate VQA pairs using vision-enhanced approach"""
+        caption_generator = self._get_vision_caption_generator()
+        vqa_generator = self._get_vision_vqa_generator()
         
         vqa_data = []
         
-        # Process each image
+        # Process each image with vision models
         for item in unique_ocr_results:
             try:
                 image_path = item['image_path']
@@ -385,16 +365,16 @@ class Phase2OptimizedPipeline:
                 if not os.path.exists(final_image_path):
                     shutil.copy2(image_path, final_image_path)
                 
-                # Generate AI-driven caption
-                with self.model_lock:  # Thread-safe model access
+                # Generate vision-driven caption (100+ characters guaranteed)
+                with self.model_lock:
                     caption_result = caption_generator.generate_caption(
                         item['image_path'],
                         ocr_text=item['ocr_text']
                     )
                 
-                caption = caption_result.get('caption', 'Educational material') if isinstance(caption_result, dict) else str(caption_result)
+                caption = caption_result.get('caption', 'Visual content requiring vision analysis') if isinstance(caption_result, dict) else str(caption_result)
                 
-                # Generate AI-driven VQA pairs
+                # Generate vision-driven VQA pairs (content-adaptive)
                 vqa_input = {
                     'image_path': item['image_path'],
                     'ocr_text': item['ocr_text'],
@@ -402,6 +382,11 @@ class Phase2OptimizedPipeline:
                 }
                 
                 vqa_pairs = vqa_generator.generate_vqa_pairs(vqa_input)
+                
+                # Skip images that don't meet quality standards for VQA
+                if not vqa_pairs:
+                    self.logger.info(f"Skipping {os.path.basename(image_path)} - quality too low for dataset")
+                    continue
                 
                 # Get image dimensions
                 try:
@@ -421,13 +406,15 @@ class Phase2OptimizedPipeline:
                     'format': img_format,
                     'ocr_text': item['ocr_text'],
                     'caption': caption,
-                    'vqa_pairs': vqa_pairs
+                    'vqa_pairs': vqa_pairs,
+                    'processing_method': 'vision_enhanced',
+                    'caption_length': len(caption)
                 }
                 
                 vqa_data.append(vqa_record)
                 
             except Exception as e:
-                self.logger.warning(f"VQA generation failed for {os.path.basename(image_path)}: {e}")
+                self.logger.warning(f"Vision VQA generation failed for {os.path.basename(image_path)}: {e}")
                 continue
         
         return vqa_data
@@ -447,26 +434,21 @@ class Phase2OptimizedPipeline:
         
         for image_record in vqa_data:
             try:
-                # Extract VQA pairs for this image
                 vqa_pairs = image_record.get('vqa_pairs', [])
                 total_pairs_before += len(vqa_pairs)
                 
                 if vqa_pairs:
-                    # Validate and improve the pairs
                     improved_pairs = validator.validate_and_improve_vqa_pairs(vqa_pairs)
                     total_pairs_after += len(improved_pairs)
                     
-                    # Update the record with improved pairs
                     improved_record = image_record.copy()
                     improved_record['vqa_pairs'] = improved_pairs
                     improved_data.append(improved_record)
                 else:
-                    # Keep record as-is if no pairs
                     improved_data.append(image_record)
                     
             except Exception as e:
                 self.logger.warning(f"Error validating pairs for image: {e}")
-                # Keep original if validation fails
                 improved_data.append(image_record)
         
         # Get overall quality metrics
@@ -478,7 +460,7 @@ class Phase2OptimizedPipeline:
             quality_metrics = validator.validate_dataset_quality(all_pairs)
             quality_score = quality_metrics.get('quality_score', 0.0)
             
-            self.logger.info(f"✅ VQA validation completed:")
+            self.logger.info(f"✅ Vision-enhanced VQA validation completed:")
             self.logger.info(f"   📊 Quality Score: {quality_score:.1f}/100")
             self.logger.info(f"   📝 Before: {total_pairs_before} pairs")
             self.logger.info(f"   📝 After: {total_pairs_after} pairs")
@@ -491,20 +473,19 @@ class Phase2OptimizedPipeline:
     def _save_final_jsonl(self, vqa_data: List[Dict], output_dir: str) -> str:
         """Save the final JSONL file"""
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        jsonl_path = os.path.join(output_dir, f'vqa_dataset_{self.language}.jsonl')
+        jsonl_path = os.path.join(output_dir, f'vision_vqa_dataset_{self.language}.jsonl')
         
         with open(jsonl_path, 'w', encoding='utf-8') as f:
             for record in vqa_data:
                 json.dump(record, f, ensure_ascii=False)
                 f.write('\n')
         
-        self.logger.info(f"💾 Saved {len(vqa_data)} VQA records to: {jsonl_path}")
+        self.logger.info(f"💾 Saved {len(vqa_data)} vision-enhanced VQA records to: {jsonl_path}")
         return jsonl_path
 
 
 def check_and_setup_environment():
     """Check and setup the environment for the pipeline"""
-    # Get the directory where this script is located
     script_dir = os.path.dirname(os.path.abspath(__file__))
     
     required_dirs = [
@@ -514,10 +495,8 @@ def check_and_setup_environment():
     
     missing_dirs = []
     for dir_name in required_dirs:
-        # Check in script directory first
         dir_path = os.path.join(script_dir, dir_name)
         if not os.path.exists(dir_path):
-            # Check in current working directory as fallback
             if not os.path.exists(dir_name):
                 missing_dirs.append(dir_name)
     
@@ -528,7 +507,7 @@ def check_and_setup_environment():
         print("Please ensure all required components are installed.")
         return False
     
-    print("✅ Environment ready")
+    print("✅ Environment ready for vision-enhanced pipeline")
     return True
 
 
@@ -536,32 +515,36 @@ def main():
     """Main execution function"""
     import argparse
     
-    parser = argparse.ArgumentParser(description='Phase 2 AI-Driven VQA Pipeline')
+    parser = argparse.ArgumentParser(description='Vision-Enhanced VQA Pipeline with True AI Understanding')
     parser.add_argument('--input_dir', required=True, help='Input directory containing images')
     parser.add_argument('--output_dir', required=True, help='Output directory for results')
     parser.add_argument('--language', default='english', help='Language for processing (default: english)')
+    parser.add_argument('--device', default='cpu', choices=['cpu', 'cuda'], help='Device for vision models (default: cpu)')
     parser.add_argument('--workers', type=int, default=2, help='Number of worker threads (default: 2)')
     parser.add_argument('--skip_ocr', action='store_true', help='Skip OCR processing')
     parser.add_argument('--skip_deduplication', action='store_true', help='Skip image deduplication')
+    parser.add_argument('--skip_quality_filter', action='store_true', help='Skip image quality filtering')
     
     # Support both old and new command formats
     if len(sys.argv) == 3 and not any(arg.startswith('--') for arg in sys.argv[1:]):
-        # Old format: python script.py input_dir output_dir
         input_dir = sys.argv[1]
         output_dir = sys.argv[2]
         language = 'english'
+        device = 'cpu'
         workers = 2
         skip_ocr = False
         skip_deduplication = False
+        skip_quality_filter = False
     else:
-        # New format with arguments
         args = parser.parse_args()
         input_dir = args.input_dir
         output_dir = args.output_dir
         language = args.language
+        device = args.device
         workers = args.workers
         skip_ocr = args.skip_ocr
         skip_deduplication = args.skip_deduplication
+        skip_quality_filter = args.skip_quality_filter
     
     # Check environment
     if not check_and_setup_environment():
@@ -585,25 +568,33 @@ def main():
         print(f"❌ No images found in: {input_dir}")
         sys.exit(1)
     
-    print(f"🎯 Found {len(image_paths)} images in {input_dir}")
+    print(f"🔮 Found {len(image_paths)} images in {input_dir}")
     print(f"📁 Output will be saved to: {output_dir}")
+    print(f"🖥️  Using device: {device}")
     
-    # Initialize and run pipeline
-    pipeline = Phase2OptimizedPipeline(language=language, max_workers=workers)
+    # Initialize and run vision-enhanced pipeline
+    pipeline = VisionEnhancedPipeline(language=language, device=device, max_workers=workers)
     
-    print("🚀 Starting AI-Driven Pipeline...")
-    result = pipeline.run_fast_pipeline(image_paths, output_dir, skip_ocr=skip_ocr, skip_deduplication=skip_deduplication)
+    print("🔮 Starting Vision-Enhanced Pipeline...")
+    result = pipeline.run_vision_enhanced_pipeline(
+        image_paths, 
+        output_dir, 
+        skip_ocr=skip_ocr, 
+        skip_deduplication=skip_deduplication,
+        skip_quality_filter=skip_quality_filter
+    )
     
     # Display results
     if result['success']:
-        print("\n✅ PIPELINE COMPLETED SUCCESSFULLY!")
+        print("\n✅ VISION-ENHANCED PIPELINE COMPLETED SUCCESSFULLY!")
         print(f"📊 Processing Summary:")
         for step, count in result['processing_summary'].items():
             print(f"   {step}: {count}")
         print(f"⏱️  Total Time: {result['total_time']}s")
         print(f"📄 Final Dataset: {result['final_jsonl_path']}")
+        print(f"🔮 Features: Vision AI, Content-Adaptive, 100+ char descriptions, Quality filtering")
     else:
-        print(f"\n❌ PIPELINE FAILED: {result.get('error', 'Unknown error')}")
+        print(f"\n❌ VISION-ENHANCED PIPELINE FAILED: {result.get('error', 'Unknown error')}")
         print(f"⏱️  Time before failure: {result.get('total_time', 0)}s")
         sys.exit(1)
 
