@@ -395,10 +395,10 @@ This is a production-grade project with high code quality standards:
 
 ## 🏆 Credits
 
-**Lead Developer**: @ahtisham  
+**Lead Developer**: [Ahtesham Ahmad](https://github.com/shami-ah)  
 **Architecture**: Production-grade, API-free design  
-**Focus**: Educational VQA dataset generation  
-**License**: Educational/Research use
+**Portfolio**: [portfolio-site-alpha.pages.dev](https://portfolio-site-alpha.pages.dev)  
+**License**: MIT — Educational/Research use
 
 ---
 
