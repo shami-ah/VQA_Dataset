@@ -339,6 +339,44 @@ The project uses a sophisticated configuration system (`config.py`) supporting:
 
 ---
 
+## 🧠 System Design
+
+### Design Decisions
+
+| Decision | Choice | Why |
+|----------|--------|-----|
+| API-free scraping | Selenium + stealth browsing | Eliminates API costs and quota limits; full access to search results without rate limiting |
+| Per-language pipelines | Separate pipeline scripts per language | Each language has unique platforms (Baidu for Chinese, Naver for Korean), keyword patterns, and OCR quirks — a generic pipeline would hide critical differences |
+| Phase-based architecture | Phase 1 (scraping/OCR) → Phase 2 (keywords) → Phase 3 (QA) | Decouples data collection from enrichment; each phase can run independently and scale separately |
+| JSON metadata over database | File-based JSON with structured schemas | Dataset is write-heavy during collection, read-heavy during training — flat files are simpler to version, share, and load into ML pipelines than a database |
+| Seed-based keyword expansion | Domain seeds → contextual expansion → quality pruning | Produces higher-quality keywords than pure LLM generation; 1.4k seeds → 19k keywords with controlled quality |
+| Hash-based deduplication | Perceptual hashing + file hash | Catches both exact duplicates and near-duplicates (resized, recompressed) without expensive visual similarity models |
+
+### Data Flow
+
+```
+Seed Keywords → Keyword Expansion (19k+)
+                      ↓
+              Multi-Source Scraping (7+ platforms)
+                      ↓
+              Quality Filtering (size, format, duplicates)
+                      ↓
+              OCR Processing (13 languages via EasyOCR)
+                      ↓
+              Metadata Enrichment (domain, quality score, taxonomy)
+                      ↓
+              Structured Dataset (JSON + images, ML-ready)
+```
+
+### Scalability Considerations
+
+- **Horizontal**: Each language pipeline is independent — can run 13 pipelines in parallel across machines
+- **Keyword scaling**: Seed expansion is O(seeds × prefixes × suffixes) — adding domains scales linearly
+- **Storage**: Metadata is separated from images — lightweight indexing without moving large files
+- **Resumability**: Scrapers track progress per-keyword — interrupted runs resume without re-downloading
+
+---
+
 ## 🔮 Roadmap
 
 ### **Short Term**
